@@ -1,0 +1,17 @@
+*************** PerlIOStdio_invalidate_fileno(pTHX_ FILE *f)
+*** 3203,3209 ****
+         structure at all
+       */
+  #    else
+-     f->_file = -1;
+  #    endif
+      return 1;
+  #  else
+--- 3203,3209 ----
+         structure at all
+       */
+  #    else
++     PERLIO_FILE_file(f) = -1;
+  #    endif
+      return 1;
+  #  else

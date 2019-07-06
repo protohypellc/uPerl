@@ -1,0 +1,946 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="av.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="caretx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="deb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="doio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="doop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dquote_static.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generate_uudmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inline_invlist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="keywords.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="locale.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="malloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mathoms.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mg_names.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="miniperlmain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mro_core.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="numeric.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="op.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="overload.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="packsizetables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="perl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="perlapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="perlio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="perly.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pp_ctl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pp_hot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pp_pack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pp_sort.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pp_sys.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reentr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="regcomp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="regexec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="run.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scope.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="taint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="time64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="toke.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="universal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utf8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\compress-raw-bzip2\bzip2-src\blocksort.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\compress-raw-bzip2\bzip2-src\bzlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\compress-raw-bzip2\bzip2-src\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\compress-raw-bzip2\bzip2-src\crctable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\compress-raw-bzip2\bzip2-src\decompress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\compress-raw-bzip2\bzip2-src\huffman.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\compress-raw-bzip2\bzip2-src\randtable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\db_file\version.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\devel-ppport\module2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\devel-ppport\module3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\digest-sha\src\sdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\digest-sha\src\sha.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\digest-sha\src\sha64bit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpan\encode\encengine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cygwin\cygwin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dist\io\poll.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="djgpp\djgpp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\dynaloader\dlutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\file-glob\bsd_glob.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\sdbm_file\dba.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\sdbm_file\dbd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\sdbm_file\dbe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\sdbm_file\dbu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\sdbm_file\hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\sdbm_file\pair.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\sdbm_file\sdbm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\sdbm_file\util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\win32core\Win32CORE.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\xs-apitest\core.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\xs-apitest\exception.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\xs-apitest\notcore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\xs-typemap\stdio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hints\t001.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netware\interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netware\nwhashcls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netware\perllib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netware\CLIBstuf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netware\interface.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netware\Main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netware\nw5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netware\nw5sck.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netware\nw5thread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netware\Nwmain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netware\nwperlsys.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netware\Nwpipe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netware\nwplglob.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netware\NWTInfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netware\NWUtil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netware\sv_nw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netware\testnlm\echo\echo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netware\testnlm\type\type.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="os2\dl_os2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="os2\os2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="os2\perlrexx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plan9\plan9.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="porting\timecheck.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="porting\timecheck2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qnx\qnx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="symbian\PerlApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="symbian\PerlBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="symbian\PerlRecog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="symbian\PerlUi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="symbian\PerlUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="symbian\symbian_dll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="symbian\symbian_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="symbian\symbian_stubs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vms\munchconfig.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vms\vms.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vos\vos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\fcrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\perlglob.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\perllib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\perlmaince.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\runperl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win32ceio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win32io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win32sck.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win32thread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\wince.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\wincesck.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="av.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="charclass_invlists.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dosish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ebcdic_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="embed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="embedvar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTERN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fakesdio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="feature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="form.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="handy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hv_func.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INTERN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intrpvar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iperlsys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="keywords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="l1_char_class_tab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="malloc_ctl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="metaconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mg_raw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mg_vtable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mydtrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nostdio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="op.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opnames.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="op_reg_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="overload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="patchlevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="perl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="perlapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="perlio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="perliol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="perlsdio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="perlvars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="perly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pp_proto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="proto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="reentr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="regcharclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="regcomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="regexp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="regnodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scope.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="time64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="time64_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unicode_constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unixish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utf8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utfebcdic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="warnings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XSUB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\compress-raw-bzip2\bzip2-src\bzlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\compress-raw-bzip2\bzip2-src\bzlib_private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\compress-raw-bzip2\fallback\constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\compress-raw-zlib\fallback\constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\deflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\inffast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\inffixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\inflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\inftrees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\trees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\digest-sha\src\sha.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\digest-sha\src\sha64bit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\encode\encode\encode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\scalar-list-utils\multicall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\sys-syslog\fallback\syslog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\win32api-file\buffers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\win32api-file\cFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpan\win32api-file\const2perl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dist\io\poll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="djgpp\djgpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\arybase\ptable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\file-glob\bsd_glob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\re\re_comp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\re\re_top.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\sdbm_file\pair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\sdbm_file\sdbm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\sdbm_file\tune.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="haiku\haikuish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\CLIBsdio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\CLIBstr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\CLIBstuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\deb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\intdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\iperlhost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\netware.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\nw5iop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\nw5sck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\nw5thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\nwhashcls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\nwperlhost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\nwperlsys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\nwpipe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\nwplglob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\nwstdio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\nwtinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\nwutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\nwvmem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netware\win32ish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="os2\dlfcn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="os2\os2ish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="os2\os2thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="os2\os2\os2-extattr\myea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plan9\plan9ish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plan9\arpa\inet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="symbian\PerlApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="symbian\PerlBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="symbian\PerlUi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="symbian\PerlUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="symbian\symbianish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="symbian\symbian_proto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="symbian\symbian_stubs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="t\lib\h2ph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vms\vmsish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vos\vosish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\perlhost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\vdir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\vmem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\win32iop-o.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\win32iop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\win32thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\wince.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\include\dirent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\include\netdb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\include\arpa\inet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\include\sys\errno2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\include\sys\socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vxs.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="cpan\sys-syslog\fallback\const-c.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="cpan\sys-syslog\fallback\const-xs.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="cpan\time-hires\fallback\const-c.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="cpan\time-hires\fallback\const-xs.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="cpan\win32\longpath.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="dist\bignum\t\infnan.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="dist\math-bigint\t\alias.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="dist\math-bigint\t\bigfltpm.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="dist\math-bigint\t\bigintpm.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="dist\math-bigint\t\mbimbf.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="dist\math-bigint\t\upgrade.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="dist\math-bigrat\t\bigfltpm.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="dist\math-bigrat\t\bigratpm.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="ext\xs-apitest\core_or_not.inc">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="plan9\setup.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="win32\perl.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="win32\perlexe.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

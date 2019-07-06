@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UPerl.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\perl\lib\CORE\av.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\bitcount.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\charclass_invlists.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\config.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\cop.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\cv.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\dirent.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\dosish.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\ebcdic_tables.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\embed.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\embedvar.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\EXTERN.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\fakesdio.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\feature.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\form.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\git_version.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\gv.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\handy.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\hv.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\hv_func.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\inline.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\INTERN.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\intrpvar.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\iperlsys.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\keywords.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\l1_char_class_tab.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\malloc_ctl.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\metaconfig.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\mg.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\mg_data.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\mg_raw.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\mg_vtable.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\mydtrace.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\netdb.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\nostdio.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\op.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\op_reg_common.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\opcode.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\opnames.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\overload.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\pad.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\parser.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\patchlevel.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\perl.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\perlapi.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\perlhost.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\perlio.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\perliol.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\perllibst.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\perlsdio.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\perlvars.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\perly.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\pp.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\pp_proto.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\proto.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\reentr.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\regcharclass.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\regcomp.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\regexp.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\regnodes.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\scope.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\sv.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\thread.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\time64.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\time64_config.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\uconfig.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\unicode_constants.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\unixish.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\utf8.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\utfebcdic.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\util.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\uudmap.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\vdir.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\vmem.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\vutil.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\warnings.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\win32.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\win32iop.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\win32iop-o.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\win32thread.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\wince.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\perl\lib\CORE\XSUB.h">
+      <Filter>External Include</Filter>
+    </ClInclude>
+    <ClInclude Include="uperl.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{c7ba816b-307c-418d-aa29-103ea527260f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{25e18b4e-dc8a-44a8-b5fb-4e2be1af9ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External Include">
+      <UniqueIdentifier>{4cdbab3f-f8da-4db7-b963-23b267e2b298}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\ChadSinger\Desktop\app.ico">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

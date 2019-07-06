@@ -1,0 +1,1198 @@
+﻿  'vcvars32' is not recognized as an internal or external command,
+  operable program or batch file.
+  
+  Microsoft (R) Program Maintenance Utility Version 14.13.26128.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	if exist ..\miniperl.exe ..\miniperl.exe -I..\lib ..\make_ext.pl "MAKE=nmake -nologo" --dir=..\cpan --dir=..\dist --dir=..\ext --all --target=realclean
+  Generating a nmake-style Makefile
+  Writing Makefile for Cwd
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  Cwd.bso Cwd.def  Cwd.exp Cwd.x  Cwd.bs ..\..\lib\auto\Cwd\extralibs.all  ..\..\lib\auto\Cwd\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core Cwd.c  MYMETA.json MYMETA.yml  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libCwd.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb blib
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  ..\..\lib\File\Spec\Mac.pm ..\..\lib\File\Spec\Unix.pm  Cwd.obj ..\..\lib\Cwd.pm  ..\..\lib\File\Spec\Functions.pm ..\..\lib\File\Spec\Win32.pm  ..\..\lib\File\Spec.pm ..\..\lib\File\Spec\VMS.pm  Makefile ..\..\lib\File\Spec\OS2.pm  ..\..\lib\File\Spec\Epoc.pm Makefile.old  ..\..\lib\File\Spec\Cygwin.pm
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  ..\..\lib\auto\Cwd PathTools-3.56  ..\..\lib\auto\Cwd
+  
+  Running pm_to_blib for cpan/Pod-Simple directly
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  Tar.bso Tar.def  Tar.exp Tar.x   ..\..\lib\auto\Archive\Tar\extralibs.all  ..\..\lib\auto\Archive\Tar\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core MYMETA.json  MYMETA.yml blibdirs.ts  core core.*perl.*.?  core.[0-9] core.[0-9][0-9]  core.[0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9][0-9] libTar.def  mon.out perl  perl.exe perl.exe  perlmain.c pm_to_blib  pm_to_blib.ts so_locations  tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb blib
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  ..\..\lib\Archive\Tar\Constant.pm ..\..\lib\Archive\Tar\File.pm  Makefile.old Makefile  ..\..\lib\Archive\Tar.pm
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  ..\..\lib\auto\Archive\Tar Archive-Tar-2.04  ..\..\lib\auto\Archive\Tar Makefile.PL
+  
+  Running pm_to_blib for dist/Attribute-Handlers directly
+  
+  Running pm_to_blib for cpan/AutoLoader directly
+  Generating a nmake-style Makefile
+  Writing Makefile for B
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  B.bso B.def  B.exp B.x  B.bs ..\..\lib\auto\B\extralibs.all  ..\..\lib\auto\B\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core B.c  MYMETA.json MYMETA.yml  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libB.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb blib
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  ..\..\lib\B\Terse.pm ..\..\lib\O.pm  Makefile.old Makefile  ..\..\lib\B\Concise.pm ..\..\lib\B\Xref.pm  ..\..\lib\B\Showlex.pm ..\..\lib\B.pm  B.obj
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  ..\..\lib\auto\B const-xs.inc  B-1.58 const-c.inc  ..\..\lib\auto\B
+  
+  Running pm_to_blib for cpan/B-Debug directly
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  CPAN.bso CPAN.def  CPAN.exp CPAN.x   ..\..\lib\auto\CPAN\extralibs.all  ..\..\lib\auto\CPAN\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core MYMETA.json  MYMETA.yml blibdirs.ts  core core.*perl.*.?  core.[0-9] core.[0-9][0-9]  core.[0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9][0-9] libCPAN.def  mon.out perl  perl.exe perl.exe  perlmain.c pm_to_blib  pm_to_blib.ts so_locations  tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb blib
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  ..\..\lib\CPAN\Exception\blocked_urllist.pm ..\..\lib\CPAN\CacheMgr.pm  ..\..\lib\CPAN\Exception\yaml_process_error.pm ..\..\lib\CPAN\Module.pm  ..\..\lib\CPAN\Prompt.pm ..\..\lib\CPAN\FTP\netrc.pm  ..\..\lib\CPAN\Author.pm ..\..\lib\CPAN\Version.pm  ..\..\lib\CPAN\Distribution.pm ..\..\lib\CPAN\Kwalify\distroprefs.dd  ..\..\lib\CPAN\Debug.pm ..\..\lib\CPAN\Shell.pm  ..\..\lib\CPAN\API\HOWTO.pod ..\..\lib\CPAN\Exception\RecursiveDependency.pm  ..\..\lib\CPAN\Distroprefs.pm ..\..\lib\CPAN\Exception\yaml_not_installed.pm  ..\..\lib\CPAN\Queue.pm ..\..\lib\CPAN\Plugin.pm  ..\..\lib\CPAN\HTTP\Client.pm ..\..\lib\CPAN\HandleConfig.pm  ..\..\lib\CPAN\Index.pm Makefile.old  ..\..\lib\CPAN\URL.pm ..\..\lib\CPAN\Bundle.pm  ..\..\lib\App\Cpan.pm ..\..\lib\CPAN\Plugin\Specfile.pm  ..\..\lib\CPAN\FirstTime.pm ..\..\lib\CPAN\Nox.pm  ..\..\lib\CPAN\DeferredCode.pm ..\..\lib\CPAN\Kwalify.pm  ..\..\lib\CPAN\InfoObj.pm ..\..\lib\CPAN\LWP\UserAgent.pm  Makefile ..\..\lib\CPAN\Mirrors.pm  ..\..\lib\CPAN\Complete.pm ..\..\lib\CPAN\HTTP\Credentials.pm  ..\..\lib\CPAN\Distrostatus.pm ..\..\lib\CPAN.pm  ..\..\lib\CPAN\Kwalify\distroprefs.yml ..\..\lib\CPAN\Tarzip.pm  ..\..\lib\CPAN\FTP.pm 
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  Makefile.PL ..\..\lib\auto\CPAN  CPAN-2.11 ..\..\lib\auto\CPAN
+  
+  Running pm_to_blib for cpan/CPAN-Meta directly
+  
+  Running pm_to_blib for cpan/CPAN-Meta-Requirements directly
+  
+  Running pm_to_blib for cpan/CPAN-Meta-YAML directly
+  
+  Running pm_to_blib for dist/Carp directly
+  Generating a nmake-style Makefile
+  Writing Makefile for Compress::Raw::Bzip2
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  Bzip2.bso Bzip2.def  Bzip2.exp Bzip2.x  Bzip2.bs ..\..\lib\auto\Compress\Raw\Bzip2\extralibs.all  ..\..\lib\auto\Compress\Raw\Bzip2\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core Bzip2.c  MYMETA.json MYMETA.yml  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libBzip2.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  *.c *.pdb  blib bzip2.h  bzlib.h bzlib_private.h  constants.h constants.xs
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  Bzip2.obj  blocksort.obj  bzlib.obj  compress.obj  crctable.obj  decompress.obj  huffman.obj  randtable.obj ..\..\lib\Compress\Raw\Bzip2.pm  Makefile.old Makefile
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  ..\..\lib\auto\Compress\Raw\Bzip2 ..\..\lib\auto\Compress\Raw\Bzip2  Compress-Raw-Bzip2-2.068
+  Parsing config.in...
+  Building Zlib enabled
+  Auto Detect Gzip OS Code..
+  Setting Gzip OS Code to 14 [VFAT file system (Win95, NT)]
+  Looks Good.
+  Generating a nmake-style Makefile
+  Writing Makefile for Compress::Raw::Zlib
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  Zlib.bso Zlib.def  Zlib.exp Zlib.x  Zlib.bs ..\..\lib\auto\Compress\Raw\Zlib\extralibs.all  ..\..\lib\auto\Compress\Raw\Zlib\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core MYMETA.json  MYMETA.yml Zlib.c  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libZlib.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  *.c *.pdb  blib constants.h  constants.xs
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  Zlib.obj  adler32.obj  compress.obj  crc32.obj  deflate.obj  infback.obj  inffast.obj  inflate.obj  inftrees.obj  trees.obj  uncompr.obj  zutil.obj ..\..\lib\Compress\Raw\Zlib.pm  Makefile.old Makefile
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  ..\..\lib\auto\Compress\Raw\Zlib Compress-Raw-Zlib-2.068  ..\..\lib\auto\Compress\Raw\Zlib
+  
+  Running pm_to_blib for cpan/Config-Perl-V directly
+  Generating a nmake-style Makefile
+  Writing Makefile for Data::Dumper
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  Dumper.bso Dumper.def  Dumper.exp Dumper.x  Dumper.bs ..\..\lib\auto\Data\Dumper\extralibs.all  ..\..\lib\auto\Data\Dumper\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core Dumper.c  MYMETA.json MYMETA.yml  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libDumper.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb blib
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  Makefile ..\..\lib\Data\Dumper.pm  Dumper.obj Makefile.old
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  Makefile.PL Data-Dumper-2.158  ..\..\lib\auto\Data\Dumper ..\..\lib\auto\Data\Dumper
+  Setting license tag...
+  Generating a nmake-style Makefile
+  Writing Makefile for Devel::PPPort
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  PPPort.bso PPPort.def  PPPort.exp PPPort.x  PPPort.bs ..\..\lib\auto\Devel\PPPort\extralibs.all  ..\..\lib\auto\Devel\PPPort\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core MYMETA.json  MYMETA.yml RealPPPort.c  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libPPPort.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  ppport.h *.pdb  PPPort.pm RealPPPort.c  RealPPPort.xs blib
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  ..\..\lib\Devel/PPPort.pm Makefile.old  RealPPPort.obj module2.obj  module3.obj Makefile
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  ..\..\lib\auto\Devel\PPPort ..\..\lib\auto\Devel\PPPort  Devel-PPPort-3.31
+  Generating a nmake-style Makefile
+  Writing Makefile for Devel::Peek
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  Peek.bso Peek.def  Peek.exp Peek.x  Peek.bs ..\..\lib\auto\Devel\Peek\extralibs.all  ..\..\lib\auto\Devel\Peek\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core MYMETA.json  MYMETA.yml Peek.c  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libPeek.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb blib
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  Peek.obj Makefile.old  Makefile ..\..\lib\Devel\Peek.pm
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  ..\..\lib\auto\Devel\Peek Devel-Peek-1.22  ..\..\lib\auto\Devel\Peek Makefile.PL
+  
+  Running pm_to_blib for dist/Devel-SelfStubber directly
+  
+  Running pm_to_blib for cpan/Digest directly
+  Perl's config says that U32 access must be aligned.
+  Generating a nmake-style Makefile
+  Writing Makefile for Digest::MD5
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  MD5.bso MD5.def  MD5.exp MD5.x  MD5.bs ..\..\lib\auto\Digest\MD5\extralibs.all  ..\..\lib\auto\Digest\MD5\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core MD5.c  MYMETA.json MYMETA.yml  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libMD5.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb blib
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  ..\..\lib\Digest\MD5.pm Makefile.old  Makefile MD5.obj
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  Digest-MD5-2.54 ..\..\lib\auto\Digest\MD5  ..\..\lib\auto\Digest\MD5
+  Generating a nmake-style Makefile
+  Writing Makefile for Digest::SHA
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  blib\script\shasum
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  SHA.bso SHA.def  SHA.exp SHA.x  SHA.bs ..\..\lib\auto\Digest\SHA\extralibs.all  ..\..\lib\auto\Digest\SHA\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core MYMETA.json  MYMETA.yml SHA.c  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libSHA.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb blib
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  SHA.obj Makefile.old  ..\..\lib\Digest\SHA.pm Makefile
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  ..\..\lib\auto\Digest\SHA Digest-SHA-5.95  ..\..\lib\auto\Digest\SHA
+  
+  Running pm_to_blib for dist/Dumpvalue directly
+  Generating a nmake-style Makefile
+  Writing Makefile for DynaLoader
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  DynaLoader.bso DynaLoader.def  DynaLoader.exp DynaLoader.x   ..\..\lib\auto\DynaLoader\extralibs.all  ..\..\lib\auto\DynaLoader\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core MYMETA.json  MYMETA.yml blibdirs.ts  core core.*perl.*.?  core.[0-9] core.[0-9][0-9]  core.[0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9][0-9] dl_aix.c  dl_dllload.c dl_dlopen.c  dl_dyld.c dl_freemint.c  dl_hpux.c dl_none.c  dl_symbian.c dl_vms.c  dl_win32.c libDynaLoader.def  mon.out perl  perl.exe perl.exe  perlmain.c pm_to_blib  pm_to_blib.ts so_locations  tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb DynaLoader.c  DynaLoader.pm DynaLoader.xs  blib
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  ..\..\lib/DynaLoader.pm Makefile  DynaLoader.obj Makefile.old
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  ..\..\lib\auto\DynaLoader DynaLoader-1.32  ..\..\lib\auto\DynaLoader
+  Generating a nmake-style Makefile
+  Writing Makefile for Encode::Byte
+  Generating a nmake-style Makefile
+  Writing Makefile for Encode::CN
+  Generating a nmake-style Makefile
+  Writing Makefile for Encode::EBCDIC
+  Generating a nmake-style Makefile
+  Writing Makefile for Encode::JP
+  Generating a nmake-style Makefile
+  Writing Makefile for Encode::KR
+  Generating a nmake-style Makefile
+  Writing Makefile for Encode::Symbol
+  Generating a nmake-style Makefile
+  Writing Makefile for Encode::TW
+  Generating a nmake-style Makefile
+  Writing Makefile for Encode::Unicode
+  Generating a nmake-style Makefile
+  Writing Makefile for Encode
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  blib\script\encguess blib\script\piconv  blib\script\enc2xs
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "exit 0 unless chdir 'Byte';  system 'nmake clean' if -f 'Makefile';" --
+  
+  Microsoft (R) Program Maintenance Utility Version 14.13.26128.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  Byte.bso Byte.def  Byte.exp Byte.x  Byte.bs ..\..\..\lib\auto\Encode\Byte\extralibs.all  ..\..\..\lib\auto\Encode\Byte\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core Byte.c  MYMETA.json MYMETA.yml  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libByte.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb Byte.xs  blib byte_t.obj  byte_t.c byte_t.exh  byte_t.fnm byte_t.h
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "exit 0 unless chdir 'CN';  system 'nmake clean' if -f 'Makefile';" --
+  
+  Microsoft (R) Program Maintenance Utility Version 14.13.26128.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  CN.bso CN.def  CN.exp CN.x  CN.bs ..\..\..\lib\auto\Encode\CN\extralibs.all  ..\..\..\lib\auto\Encode\CN\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core CN.c  MYMETA.json MYMETA.yml  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libCN.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb CN.xs  blib cp_00_t.obj  cp_00_t.c cp_00_t.exh  cp_00_t.fnm cp_00_t.h  eu_01_t.obj eu_01_t.c  eu_01_t.exh eu_01_t.fnm  eu_01_t.h gb_02_t.obj  gb_02_t.c gb_02_t.exh  gb_02_t.fnm gb_02_t.h  gb_03_t.obj gb_03_t.c  gb_03_t.exh gb_03_t.fnm  gb_03_t.h ir_04_t.obj  ir_04_t.c ir_04_t.exh  ir_04_t.fnm ir_04_t.h  ma_05_t.obj ma_05_t.c  ma_05_t.exh ma_05_t.fnm  ma_05_t.h
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "exit 0 unless chdir 'EBCDIC';  system 'nmake clean' if -f 'Makefile';" --
+  
+  Microsoft (R) Program Maintenance Utility Version 14.13.26128.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  EBCDIC.bso EBCDIC.def  EBCDIC.exp EBCDIC.x  EBCDIC.bs ..\..\..\lib\auto\Encode\EBCDIC\extralibs.all  ..\..\..\lib\auto\Encode\EBCDIC\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core EBCDIC.c  MYMETA.json MYMETA.yml  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libEBCDIC.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb EBCDIC.xs  blib ebcdic_t.obj  ebcdic_t.c ebcdic_t.exh  ebcdic_t.fnm ebcdic_t.h
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "exit 0 unless chdir 'JP';  system 'nmake clean' if -f 'Makefile';" --
+  
+  Microsoft (R) Program Maintenance Utility Version 14.13.26128.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  JP.bso JP.def  JP.exp JP.x  JP.bs ..\..\..\lib\auto\Encode\JP\extralibs.all  ..\..\..\lib\auto\Encode\JP\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core JP.c  MYMETA.json MYMETA.yml  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libJP.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb JP.xs  blib cp_00_t.obj  cp_00_t.c cp_00_t.exh  cp_00_t.fnm cp_00_t.h  eu_01_t.obj eu_01_t.c  eu_01_t.exh eu_01_t.fnm  eu_01_t.h ji_02_t.obj  ji_02_t.c ji_02_t.exh  ji_02_t.fnm ji_02_t.h  ji_03_t.obj ji_03_t.c  ji_03_t.exh ji_03_t.fnm  ji_03_t.h ji_04_t.obj  ji_04_t.c ji_04_t.exh  ji_04_t.fnm ji_04_t.h  ma_05_t.obj ma_05_t.c  ma_05_t.exh ma_05_t.fnm  ma_05_t.h sh_06_t.obj  sh_06_t.c sh_06_t.exh  sh_06_t.fnm sh_06_t.h
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "exit 0 unless chdir 'KR';  system 'nmake clean' if -f 'Makefile';" --
+  
+  Microsoft (R) Program Maintenance Utility Version 14.13.26128.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  KR.bso KR.def  KR.exp KR.x  KR.bs ..\..\..\lib\auto\Encode\KR\extralibs.all  ..\..\..\lib\auto\Encode\KR\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core KR.c  MYMETA.json MYMETA.yml  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libKR.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb KR.xs  blib cp_00_t.obj  cp_00_t.c cp_00_t.exh  cp_00_t.fnm cp_00_t.h  eu_01_t.obj eu_01_t.c  eu_01_t.exh eu_01_t.fnm  eu_01_t.h jo_02_t.obj  jo_02_t.c jo_02_t.exh  jo_02_t.fnm jo_02_t.h  ks_03_t.obj ks_03_t.c  ks_03_t.exh ks_03_t.fnm  ks_03_t.h ma_04_t.obj  ma_04_t.c ma_04_t.exh  ma_04_t.fnm ma_04_t.h
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "exit 0 unless chdir 'Symbol';  system 'nmake clean' if -f 'Makefile';" --
+  
+  Microsoft (R) Program Maintenance Utility Version 14.13.26128.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  Symbol.bso Symbol.def  Symbol.exp Symbol.x  Symbol.bs ..\..\..\lib\auto\Encode\Symbol\extralibs.all  ..\..\..\lib\auto\Encode\Symbol\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core MYMETA.json  MYMETA.yml Symbol.c  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libSymbol.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb Symbol.xs  blib symbol_t.obj  symbol_t.c symbol_t.exh  symbol_t.fnm symbol_t.h
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "exit 0 unless chdir 'TW';  system 'nmake clean' if -f 'Makefile';" --
+  
+  Microsoft (R) Program Maintenance Utility Version 14.13.26128.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  TW.bso TW.def  TW.exp TW.x  TW.bs ..\..\..\lib\auto\Encode\TW\extralibs.all  ..\..\..\lib\auto\Encode\TW\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core MYMETA.json  MYMETA.yml TW.c  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libTW.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb TW.xs  bi_00_t.obj bi_00_t.c  bi_00_t.exh bi_00_t.fnm  bi_00_t.h bi_01_t.obj  bi_01_t.c bi_01_t.exh  bi_01_t.fnm bi_01_t.h  blib cp_02_t.obj  cp_02_t.c cp_02_t.exh  cp_02_t.fnm cp_02_t.h  ma_03_t.obj ma_03_t.c  ma_03_t.exh ma_03_t.fnm  ma_03_t.h
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "exit 0 unless chdir 'Unicode';  system 'nmake clean' if -f 'Makefile';" --
+  
+  Microsoft (R) Program Maintenance Utility Version 14.13.26128.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  Unicode.bso Unicode.def  Unicode.exp Unicode.x  Unicode.bs ..\..\..\lib\auto\Encode\Unicode\extralibs.all  ..\..\..\lib\auto\Encode\Unicode\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core MYMETA.json  MYMETA.yml Unicode.c  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libUnicode.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb blib
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  Encode.bso Encode.def  Encode.exp Encode.x  Encode.bs ..\..\lib\auto\Encode\extralibs.all  ..\..\lib\auto\Encode\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core Encode.c  MYMETA.json MYMETA.yml  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libEncode.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb blib  def_t.obj def_t.c  def_t.exh def_t.fnm  def_t.h
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "chdir 'Byte';  system 'nmake -f Makefile.old realclean' if -f 'Makefile.old';" --
+  
+  Microsoft (R) Program Maintenance Utility Version 14.13.26128.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  Byte.bso Byte.def  Byte.exp Byte.x  Byte.bs ..\..\..\lib\auto\Encode\Byte\extralibs.all  ..\..\..\lib\auto\Encode\Byte\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core Byte.c  MYMETA.json MYMETA.yml  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libByte.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb Byte.xs  blib byte_t.obj  byte_t.c byte_t.exh  byte_t.fnm byte_t.h
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  ..\..\..\lib\Encode\Byte.pm Makefile  Makefile.old Byte.obj  byte_t.obj
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  ..\..\..\lib\auto\Encode\Byte ..\..\..\lib\auto\Encode\Byte  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "chdir 'Byte';  system 'nmake -f Makefile realclean' if -f 'Makefile';" --
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "chdir 'CN';  system 'nmake -f Makefile.old realclean' if -f 'Makefile.old';" --
+  
+  Microsoft (R) Program Maintenance Utility Version 14.13.26128.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  CN.bso CN.def  CN.exp CN.x  CN.bs ..\..\..\lib\auto\Encode\CN\extralibs.all  ..\..\..\lib\auto\Encode\CN\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core CN.c  MYMETA.json MYMETA.yml  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libCN.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb CN.xs  blib cp_00_t.obj  cp_00_t.c cp_00_t.exh  cp_00_t.fnm cp_00_t.h  eu_01_t.obj eu_01_t.c  eu_01_t.exh eu_01_t.fnm  eu_01_t.h gb_02_t.obj  gb_02_t.c gb_02_t.exh  gb_02_t.fnm gb_02_t.h  gb_03_t.obj gb_03_t.c  gb_03_t.exh gb_03_t.fnm  gb_03_t.h ir_04_t.obj  ir_04_t.c ir_04_t.exh  ir_04_t.fnm ir_04_t.h  ma_05_t.obj ma_05_t.c  ma_05_t.exh ma_05_t.fnm  ma_05_t.h
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  Makefile.old Makefile  ..\..\..\lib\Encode\CN.pm CN.obj  cp_00_t.obj  eu_01_t.obj  gb_02_t.obj  gb_03_t.obj  ir_04_t.obj  ma_05_t.obj
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --   ..\..\..\lib\auto\Encode\CN  ..\..\..\lib\auto\Encode\CN
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "chdir 'CN';  system 'nmake -f Makefile realclean' if -f 'Makefile';" --
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "chdir 'EBCDIC';  system 'nmake -f Makefile.old realclean' if -f 'Makefile.old';" --
+  
+  Microsoft (R) Program Maintenance Utility Version 14.13.26128.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  EBCDIC.bso EBCDIC.def  EBCDIC.exp EBCDIC.x  EBCDIC.bs ..\..\..\lib\auto\Encode\EBCDIC\extralibs.all  ..\..\..\lib\auto\Encode\EBCDIC\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core EBCDIC.c  MYMETA.json MYMETA.yml  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libEBCDIC.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb EBCDIC.xs  blib ebcdic_t.obj  ebcdic_t.c ebcdic_t.exh  ebcdic_t.fnm ebcdic_t.h
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  EBCDIC.obj  ebcdic_t.obj ..\..\..\lib\Encode\EBCDIC.pm  Makefile.old Makefile
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  ..\..\..\lib\auto\Encode\EBCDIC ..\..\..\lib\auto\Encode\EBCDIC  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "chdir 'EBCDIC';  system 'nmake -f Makefile realclean' if -f 'Makefile';" --
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "chdir 'JP';  system 'nmake -f Makefile.old realclean' if -f 'Makefile.old';" --
+  
+  Microsoft (R) Program Maintenance Utility Version 14.13.26128.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  JP.bso JP.def  JP.exp JP.x  JP.bs ..\..\..\lib\auto\Encode\JP\extralibs.all  ..\..\..\lib\auto\Encode\JP\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core JP.c  MYMETA.json MYMETA.yml  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libJP.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb JP.xs  blib cp_00_t.obj  cp_00_t.c cp_00_t.exh  cp_00_t.fnm cp_00_t.h  eu_01_t.obj eu_01_t.c  eu_01_t.exh eu_01_t.fnm  eu_01_t.h ji_02_t.obj  ji_02_t.c ji_02_t.exh  ji_02_t.fnm ji_02_t.h  ji_03_t.obj ji_03_t.c  ji_03_t.exh ji_03_t.fnm  ji_03_t.h ji_04_t.obj  ji_04_t.c ji_04_t.exh  ji_04_t.fnm ji_04_t.h  ma_05_t.obj ma_05_t.c  ma_05_t.exh ma_05_t.fnm  ma_05_t.h sh_06_t.obj  sh_06_t.c sh_06_t.exh  sh_06_t.fnm sh_06_t.h
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  JP.obj  cp_00_t.obj  eu_01_t.obj  ji_02_t.obj  ji_03_t.obj  ji_04_t.obj  ma_05_t.obj  sh_06_t.obj ..\..\..\lib\Encode\JP.pm  Makefile.old Makefile
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  ..\..\..\lib\auto\Encode\JP ..\..\..\lib\auto\Encode\JP  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "chdir 'JP';  system 'nmake -f Makefile realclean' if -f 'Makefile';" --
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "chdir 'KR';  system 'nmake -f Makefile.old realclean' if -f 'Makefile.old';" --
+  
+  Microsoft (R) Program Maintenance Utility Version 14.13.26128.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  KR.bso KR.def  KR.exp KR.x  KR.bs ..\..\..\lib\auto\Encode\KR\extralibs.all  ..\..\..\lib\auto\Encode\KR\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core KR.c  MYMETA.json MYMETA.yml  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libKR.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb KR.xs  blib cp_00_t.obj  cp_00_t.c cp_00_t.exh  cp_00_t.fnm cp_00_t.h  eu_01_t.obj eu_01_t.c  eu_01_t.exh eu_01_t.fnm  eu_01_t.h jo_02_t.obj  jo_02_t.c jo_02_t.exh  jo_02_t.fnm jo_02_t.h  ks_03_t.obj ks_03_t.c  ks_03_t.exh ks_03_t.fnm  ks_03_t.h ma_04_t.obj  ma_04_t.c ma_04_t.exh  ma_04_t.fnm ma_04_t.h
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  KR.obj  cp_00_t.obj  eu_01_t.obj  jo_02_t.obj  ks_03_t.obj  ma_04_t.obj ..\..\..\lib\Encode\KR.pm  Makefile.old Makefile
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  ..\..\..\lib\auto\Encode\KR   ..\..\..\lib\auto\Encode\KR
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "chdir 'KR';  system 'nmake -f Makefile realclean' if -f 'Makefile';" --
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "chdir 'Symbol';  system 'nmake -f Makefile.old realclean' if -f 'Makefile.old';" --
+  
+  Microsoft (R) Program Maintenance Utility Version 14.13.26128.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  Symbol.bso Symbol.def  Symbol.exp Symbol.x  Symbol.bs ..\..\..\lib\auto\Encode\Symbol\extralibs.all  ..\..\..\lib\auto\Encode\Symbol\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core MYMETA.json  MYMETA.yml Symbol.c  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libSymbol.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb Symbol.xs  blib symbol_t.obj  symbol_t.c symbol_t.exh  symbol_t.fnm symbol_t.h
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  Makefile.old Makefile  ..\..\..\lib\Encode\Symbol.pm Symbol.obj  symbol_t.obj
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  ..\..\..\lib\auto\Encode\Symbol   ..\..\..\lib\auto\Encode\Symbol
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "chdir 'Symbol';  system 'nmake -f Makefile realclean' if -f 'Makefile';" --
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "chdir 'TW';  system 'nmake -f Makefile.old realclean' if -f 'Makefile.old';" --
+  
+  Microsoft (R) Program Maintenance Utility Version 14.13.26128.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  TW.bso TW.def  TW.exp TW.x  TW.bs ..\..\..\lib\auto\Encode\TW\extralibs.all  ..\..\..\lib\auto\Encode\TW\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core MYMETA.json  MYMETA.yml TW.c  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libTW.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb TW.xs  bi_00_t.obj bi_00_t.c  bi_00_t.exh bi_00_t.fnm  bi_00_t.h bi_01_t.obj  bi_01_t.c bi_01_t.exh  bi_01_t.fnm bi_01_t.h  blib cp_02_t.obj  cp_02_t.c cp_02_t.exh  cp_02_t.fnm cp_02_t.h  ma_03_t.obj ma_03_t.c  ma_03_t.exh ma_03_t.fnm  ma_03_t.h
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  Makefile.old ..\..\..\lib\Encode\TW.pm  Makefile TW.obj  bi_00_t.obj  bi_01_t.obj  cp_02_t.obj  ma_03_t.obj
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  ..\..\..\lib\auto\Encode\TW ..\..\..\lib\auto\Encode\TW  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "chdir 'TW';  system 'nmake -f Makefile realclean' if -f 'Makefile';" --
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "chdir 'Unicode';  system 'nmake -f Makefile.old realclean' if -f 'Makefile.old';" --
+  
+  Microsoft (R) Program Maintenance Utility Version 14.13.26128.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  Unicode.bso Unicode.def  Unicode.exp Unicode.x  Unicode.bs ..\..\..\lib\auto\Encode\Unicode\extralibs.all  ..\..\..\lib\auto\Encode\Unicode\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core MYMETA.json  MYMETA.yml Unicode.c  blibdirs.ts core  core.*perl.*.? core.[0-9]  core.[0-9][0-9] core.[0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9][0-9]  libUnicode.def mon.out  perl perl.exe  perl.exe perlmain.c  pm_to_blib pm_to_blib.ts  so_locations tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb blib
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_f --  ..\..\..\lib\Encode\Unicode.pm Unicode.obj  Makefile.old Makefile
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\..\lib" "-I..\..\..\lib" -MExtUtils::Command -e rm_rf --  ..\..\..\lib\auto\Encode\Unicode   ..\..\..\lib\auto\Encode\Unicode
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib"  -e "chdir 'Unicode';  system 'nmake -f Makefile realclean' if -f 'Makefile';" --
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  ..\..\lib\Encode\Config.pm ..\..\lib\Encode\PerlIO.pod  ..\..\lib\Encode\KR\2022_KR.pm ..\..\lib\Encode\_PM.e2x  ..\..\lib\Encode\GSM0338.pm ..\..\lib\Encode\Unicode\UTF7.pm  ..\..\lib\Encode\Changes.e2x ..\..\lib\Encode\CN\HZ.pm  ..\..\lib\Encode\MIME\Header.pm ..\..\lib\Encode\MIME\Header\ISO_2022_JP.pm  ..\..\lib\Encode\JP\H2Z.pm ..\..\lib\encoding.pm  ..\..\lib\Encode\Makefile_PL.e2x Makefile.old  ..\..\lib\Encode\Alias.pm ..\..\lib\Encode\Encoding.pm  ..\..\lib\Encode\Supported.pod ..\..\lib\Encode\_T.e2x  Encode.obj  def_t.obj  encengine.obj ..\..\lib\Encode\CJKConstants.pm  ..\..\lib\Encode.pm ..\..\lib\Encode\MIME\Name.pm  ..\..\lib\Encode\Guess.pm ..\..\lib\Encode\README.e2x  ..\..\lib\Encode\Encoder.pm Makefile  ..\..\lib\Encode\JP\JIS7.pm ..\..\lib\Encode\ConfigLocal_PM.e2x  ..\..\lib\Encode\encode.h
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  ..\..\lib\auto\Encode Encode-2.72  ..\..\lib\auto\Encode
+  
+  Running pm_to_blib for dist/Env directly
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  Errno.bso Errno.def  Errno.exp Errno.x   ..\..\lib\auto\Errno\extralibs.all  ..\..\lib\auto\Errno\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core MYMETA.json  MYMETA.yml blibdirs.ts  core core.*perl.*.?  core.[0-9] core.[0-9][0-9]  core.[0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9][0-9] libErrno.def  mon.out perl  perl.exe perl.exe  perlmain.c pm_to_blib  pm_to_blib.ts so_locations  tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb Errno.pm  arch.txt blib
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  Makefile Makefile.old  ..\..\lib/Errno.pm
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  ..\..\lib\auto\Errno ..\..\lib\auto\Errno  Errno-1.23
+  
+  Running pm_to_blib for dist/Exporter directly
+  
+  Running pm_to_blib for dist/ExtUtils-CBuilder directly
+  
+  Running pm_to_blib for cpan/ExtUtils-Command directly
+  
+  Running pm_to_blib for cpan/ExtUtils-Constant directly
+  
+  Running pm_to_blib for cpan/ExtUtils-Install directly
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  MakeMaker.bso MakeMaker.def  MakeMaker.exp MakeMaker.x   ..\..\lib\auto\ExtUtils\MakeMaker\extralibs.all  ..\..\lib\auto\ExtUtils\MakeMaker\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core MYMETA.json  MYMETA.yml blibdirs.ts  core core.*perl.*.?  core.[0-9] core.[0-9][0-9]  core.[0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9][0-9] libMakeMaker.def  mon.out perl  perl.exe perl.exe  perlmain.c pm_to_blib  pm_to_blib.ts so_locations  tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb blib
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  ..\..\lib\ExtUtils\MM_VOS.pm ..\..\lib\ExtUtils\MM_Cygwin.pm  ..\..\lib\ExtUtils\MM_Win32.pm ..\..\lib\ExtUtils\testlib.pm  ..\..\lib\ExtUtils\MM_NW5.pm ..\..\lib\ExtUtils\MakeMaker\version\regex.pm  ..\..\lib\ExtUtils\MakeMaker\Config.pm ..\..\lib\ExtUtils\MM.pm  ..\..\lib\ExtUtils\MM_MacOS.pm ..\..\lib\ExtUtils\Mksymlists.pm  ..\..\lib\ExtUtils\MM_DOS.pm ..\..\lib\ExtUtils\Command\MM.pm  ..\..\lib\ExtUtils\MM_AIX.pm ..\..\lib\ExtUtils\MakeMaker\Locale.pm  ..\..\lib\ExtUtils\MY.pm ..\..\lib\ExtUtils\MM_Darwin.pm  ..\..\lib\ExtUtils\MM_Unix.pm Makefile.old  ..\..\lib\ExtUtils\MakeMaker\version\vpp.pm ..\..\lib\ExtUtils\MM_UWIN.pm  ..\..\lib\ExtUtils\MakeMaker.pm ..\..\lib\ExtUtils\MM_OS2.pm  ..\..\lib\ExtUtils\Liblist.pm Makefile  ..\..\lib\ExtUtils\MM_QNX.pm ..\..\lib\ExtUtils\MM_BeOS.pm  ..\..\lib\ExtUtils\MakeMaker\FAQ.pod ..\..\lib\ExtUtils\Liblist\Kid.pm  ..\..\lib\ExtUtils\MakeMaker\version.pm ..\..\lib\ExtUtils\MM_VMS.pm  ..\..\lib\ExtUtils\MM_Any.pm ..\..\lib\ExtUtils\MakeMaker\Tutorial.pod  ..\..\lib\ExtUtils\MM_Win95.pm ..\..\lib\ExtUtils\Mkbootstrap.pm 
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  ExtUtils-MakeMaker-7.04_01 Makefile.PL  ..\..\lib\auto\ExtUtils\MakeMaker ..\..\lib\auto\ExtUtils\MakeMaker
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  Manifest.bso Manifest.def  Manifest.exp Manifest.x   ..\..\lib\auto\ExtUtils\Manifest\extralibs.all  ..\..\lib\auto\ExtUtils\Manifest\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core MYMETA.json  MYMETA.yml blibdirs.ts  core core.*perl.*.?  core.[0-9] core.[0-9][0-9]  core.[0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9][0-9] libManifest.def  mon.out perl  perl.exe perl.exe  perlmain.c pm_to_blib  pm_to_blib.ts so_locations  tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb blib
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  ..\..\lib\ExtUtils\Manifest.pm Makefile  Makefile.old ..\..\lib\ExtUtils\MANIFEST.SKIP
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  ExtUtils-Manifest-1.70 ..\..\lib\auto\ExtUtils\Manifest  Makefile.PL ..\..\lib\auto\ExtUtils\Manifest
+  
+  Running pm_to_blib for ext/ExtUtils-Miniperl directly
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  ParseXS.bso ParseXS.def  ParseXS.exp ParseXS.x   ..\..\lib\auto\ExtUtils\ParseXS\extralibs.all  ..\..\lib\auto\ExtUtils\ParseXS\extralibs.ld Makefile.aperl  *.lib *.obj  *perl.core MYMETA.json  MYMETA.yml blibdirs.ts  core core.*perl.*.?  core.[0-9] core.[0-9][0-9]  core.[0-9][0-9][0-9] core.[0-9][0-9][0-9][0-9]  core.[0-9][0-9][0-9][0-9][0-9] libParseXS.def  mon.out perl  perl.exe perl.exe  perlmain.c pm_to_blib  pm_to_blib.ts so_locations  tmon.out
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  *.pdb blib
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e mv -- Makefile Makefile.old > NUL
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_f --  Makefile.old ..\..\lib\ExtUtils\Typemaps\InputMap.pm  ..\..\lib\ExtUtils\Typemaps\Cmd.pm ..\..\lib\ExtUtils\ParseXS.pm  ..\..\lib\ExtUtils\ParseXS\Eval.pm ..\..\lib\perlxs.pod  ..\..\lib\ExtUtils\ParseXS\Utilities.pm ..\..\lib\perlxstut.pod  ..\..\lib\ExtUtils\ParseXS\CountLines.pm ..\..\lib\ExtUtils\ParseXS.pod  ..\..\lib\ExtUtils\Typemaps\OutputMap.pm ..\..\lib\perlxstypemap.pod  Makefile ..\..\lib\ExtUtils\xsubpp  ..\..\lib\ExtUtils\ParseXS\Constants.pm ..\..\lib\ExtUtils\Typemaps\Type.pm  ..\..\lib\ExtUtils\Typemaps.pm
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e rm_rf --  Makefile.PL ..\..\lib\auto\ExtUtils\ParseXS  ExtUtils-ParseXS-3.28 ..\..\lib\auto\ExtUtils\ParseXS
+  Can't locate ExtUtils/Constant.pm in @INC (you may need to install the ExtUtils::Constant module) (@INC contains: C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\AutoLoader\lib C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Carp\lib C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\PathTools C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\PathTools\lib C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\ExtUtils-Command\lib C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\ExtUtils-Install\lib C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\ExtUtils-MakeMaker\lib C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\ExtUtils-Manifest\lib C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\File-Path\lib C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\ext\re C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Term-ReadLine\lib C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Exporter\lib C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\ext\File-Find\lib C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Text-Tabs\lib C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\constant\lib C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Text-ParseWords\lib .) at Makefile.PL line 2.
+  BEGIN failed--compilation aborted at Makefile.PL line 2.
+  512 from ext/Fcntl's Makefile.PL at ..\make_ext.pl line 523.
+EXEC : warning : No Makefile!
+NMAKE : fatal error U1073: don't know how to make 'realclean'
+  Stop.
+NMAKE : fatal error U1073: don't know how to make 'realclean'
+  Stop.
+  Unsuccessful make(ext/Fcntl): code=512 at ..\make_ext.pl line 574.
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\miniperlmain.obj
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\perlmain.obj
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\perlmainst.obj
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\perl.exe
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\wperl.exe
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\perl-static.exe
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\perl522s.lib
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\perl522.dll
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\av.obj
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\perllib.obj
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\perlio.obj
+  	if exist .\mini rmdir /s /q .\mini
+  	if exist ..\lib\unicore\To rmdir /s /q ..\lib\unicore\To
+  	if exist ..\lib\unicore\lib rmdir /s /q ..\lib\unicore\lib
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\unicore\Decomposition.pl
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\win32.obj
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\DynaLoader.obj
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\*.obj
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\*.obj
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\t\*.exe
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\*.ilk
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\Extensions_static
+  	del /f ..\miniperl.exe ..\perl.exe ..\perl522.dll ..\perlglob.exe  ..\perl522.lib ..\miniperl.lib ..\perl-static.exe ..\perl522s.lib
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe
+  	del /f ..\lib\Encode.pm ..\lib\encoding.pm ..\lib\Errno.pm
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\Encode.pm
+  	del /f ..\lib\Config.pod ..\lib\POSIX.pod ..\lib\threads.pm
+  	del /f ..\lib\.exists ..\lib\attributes.pm ..\lib\DynaLoader.pm
+  	del /f ..\lib\Fcntl.pm ..\lib\IO.pm ..\lib\Opcode.pm
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\Fcntl.pm
+  	del /f ..\lib\ops.pm ..\lib\Safe.pm
+  	del /f ..\lib\SDBM_File.pm ..\lib\Socket.pm ..\lib\POSIX.pm
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\SDBM_File.pm
+  	del /f ..\lib\B.pm ..\lib\O.pm ..\lib\re.pm
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\B.pm
+  	del /f ..\lib\File\Glob.pm
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\File\Glob.pm
+  	del /f ..\lib\Storable.pm
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\Storable.pm
+  	del /f ..\lib\Sys\Hostname.pm
+  The system cannot find the file specified.
+  	del /f ..\lib\Time\HiRes.pm
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\Time\HiRes.pm
+  	del /f ..\lib\Unicode\Normalize.pm
+  	del /f ..\lib\Math\BigInt\FastCalc.pm
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\Math\BigInt\FastCalc.pm
+  	del /f ..\lib\Win32.pm
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\Win32.pm
+  	del /f ..\lib\Win32CORE.pm
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\Win32CORE.pm
+  	del /f ..\lib\Win32API\File.pm
+  The system cannot find the file specified.
+  	del /f ..\lib\Win32API\File\cFile.pc
+  The system cannot find the path specified.
+  	del /f ..\lib\buildcustomize.pl
+  	del /f ..\dist\XSLoader\XSLoader.pm
+  	del /f *.def *.map
+  	if exist ..\lib\App rmdir /s /q ..\lib\App
+  	if exist ..\lib\Archive rmdir /s /q ..\lib\Archive
+  	if exist ..\lib\Attribute rmdir /s /q ..\lib\Attribute
+  	if exist ..\lib\autodie rmdir /s /q ..\lib\autodie
+  	if exist ..\lib\Carp rmdir /s /q ..\lib\Carp
+  	if exist ..\lib\Compress rmdir /s /q ..\lib\Compress
+  	if exist ..\lib\Config\Perl rmdir /s /q ..\lib\Config\Perl
+  	if exist ..\lib\CPAN rmdir /s /q ..\lib\CPAN
+  	if exist ..\lib\Data rmdir /s /q ..\lib\Data
+  	if exist ..\lib\Devel rmdir /s /q ..\lib\Devel
+  	if exist ..\lib\Digest rmdir /s /q ..\lib\Digest
+  	if exist ..\lib\Encode rmdir /s /q ..\lib\Encode
+  	if exist ..\lib\encoding rmdir /s /q ..\lib\encoding
+  	if exist ..\lib\Exporter rmdir /s /q ..\lib\Exporter
+  	if exist ..\lib\ExtUtils\CBuilder rmdir /s /q ..\lib\ExtUtils\CBuilder
+  	if exist ..\lib\ExtUtils\Command rmdir /s /q ..\lib\ExtUtils\Command
+  	if exist ..\lib\ExtUtils\Constant rmdir /s /q ..\lib\ExtUtils\Constant
+  	if exist ..\lib\ExtUtils\Liblist rmdir /s /q ..\lib\ExtUtils\Liblist
+  	if exist ..\lib\ExtUtils\MakeMaker rmdir /s /q ..\lib\ExtUtils\MakeMaker
+  	if exist ..\lib\ExtUtils\ParseXS rmdir /s /q ..\lib\ExtUtils\ParseXS
+  	if exist ..\lib\ExtUtils\Typemaps rmdir /s /q ..\lib\ExtUtils\Typemaps
+  	if exist ..\lib\File\Spec rmdir /s /q ..\lib\File\Spec
+  	if exist ..\lib\Filter rmdir /s /q ..\lib\Filter
+  	if exist ..\lib\Hash rmdir /s /q ..\lib\Hash
+  	if exist ..\lib\HTTP rmdir /s /q ..\lib\HTTP
+  	if exist ..\lib\I18N rmdir /s /q ..\lib\I18N
+  	if exist ..\lib\IO rmdir /s /q ..\lib\IO
+  	if exist ..\lib\IPC rmdir /s /q ..\lib\IPC
+  	if exist ..\lib\JSON rmdir /s /q ..\lib\JSON
+  	if exist ..\lib\List rmdir /s /q ..\lib\List
+  	if exist ..\lib\Locale rmdir /s /q ..\lib\Locale
+  	if exist ..\lib\Math rmdir /s /q ..\lib\Math
+  	if exist ..\lib\Memoize rmdir /s /q ..\lib\Memoize
+  	if exist ..\lib\MIME rmdir /s /q ..\lib\MIME
+  	if exist ..\lib\Module rmdir /s /q ..\lib\Module
+  	if exist ..\lib\Net\FTP rmdir /s /q ..\lib\Net\FTP
+  	if exist ..\lib\Params rmdir /s /q ..\lib\Params
+  	if exist ..\lib\Parse rmdir /s /q ..\lib\Parse
+  	if exist ..\lib\Perl rmdir /s /q ..\lib\Perl
+  	if exist ..\lib\PerlIO rmdir /s /q ..\lib\PerlIO
+  	if exist ..\lib\Pod\Perldoc rmdir /s /q ..\lib\Pod\Perldoc
+  	if exist ..\lib\Pod\Simple rmdir /s /q ..\lib\Pod\Simple
+  	if exist ..\lib\Pod\Text rmdir /s /q ..\lib\Pod\Text
+  	if exist ..\lib\Scalar rmdir /s /q ..\lib\Scalar
+  	if exist ..\lib\Search rmdir /s /q ..\lib\Search
+  	if exist ..\lib\Sub rmdir /s /q ..\lib\Sub
+  	if exist ..\lib\Sys rmdir /s /q ..\lib\Sys
+  	if exist ..\lib\TAP rmdir /s /q ..\lib\TAP
+  	if exist ..\lib\Term rmdir /s /q ..\lib\Term
+  	if exist ..\lib\Test rmdir /s /q ..\lib\Test
+  	if exist ..\lib\Text rmdir /s /q ..\lib\Text
+  	if exist ..\lib\Thread rmdir /s /q ..\lib\Thread
+  	if exist ..\lib\threads rmdir /s /q ..\lib\threads
+  	if exist ..\lib\Tie\Hash rmdir /s /q ..\lib\Tie\Hash
+  	if exist ..\lib\Unicode\Collate rmdir /s /q ..\lib\Unicode\Collate
+  	if exist ..\lib\Unicode\Collate\Locale rmdir /s /q ..\lib\Unicode\Collate\Locale
+  	if exist ..\lib\version rmdir /s /q ..\lib\version
+  	if exist ..\lib\VMS rmdir /s /q ..\lib\VMS
+  	if exist ..\lib\Win32API rmdir /s /q ..\lib\Win32API
+  	if exist ..\lib\XS rmdir /s /q ..\lib\XS
+  	cd ..\pod && del /f *.html *.bat roffitall  perl5221delta.pod perlaix.pod perlamiga.pod perlandroid.pod  perlapi.pod perlbs2000.pod perlce.pod perlcn.pod perlcygwin.pod  perldos.pod perlfreebsd.pod perlhaiku.pod perlhpux.pod  perlhurd.pod perlintern.pod perlirix.pod perljp.pod perlko.pod  perllinux.pod perlmacos.pod perlmacosx.pod perlmodlib.pod  perlnetware.pod perlopenbsd.pod perlos2.pod perlos390.pod  perlos400.pod perlplan9.pod perlqnx.pod perlriscos.pod  perlsolaris.pod perlsymbian.pod perlsynology.pod perltoc.pod  perltru64.pod perltw.pod perluniprops.pod perlvos.pod  perlwin32.pod
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\pod\*.html
+  	cd ..\utils && del /f h2ph splain perlbug pl2pm c2ph pstruct h2xs  perldoc perlivp libnetcfg enc2xs encguess piconv cpan *.bat  xsubpp pod2html instmodsh json_pp prove ptar ptardiff ptargrep shasum corelist zipdetails
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\utils\h2ph
+  	del /f ..\config.sh perlmain.c dlutils.c config.h.new  perlmainst.c
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\perlmain.c
+  	del /f ..\lib\Config.pm ..\lib\Config_heavy.pl
+  	del /f ..\lib\Config_git.pl
+  	del /f bin\*.bat
+  	del /f perllibst.h
+  	del /f .\perlexe.res perl.base
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\perlexe.res
+  	cd .. && del /s *.lib *.map *.pdb *.ilk *.bs *.obj .exists pm_to_blib ppport.h
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\generate_uudmap.pdb
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.pdb
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\perlglob.pdb
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\autodie\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\encoding-warnings\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\experimental\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\File-Fetch\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\File-Path\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\File-Temp\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Getopt-Long\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\HTTP-Tiny\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\HTTP-Tiny\blib\bin\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\HTTP-Tiny\blib\man1\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\HTTP-Tiny\blib\man3\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\HTTP-Tiny\blib\script\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\IO-Compress\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\IO-Compress\blib\bin\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\IO-Compress\blib\man1\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\IO-Compress\blib\man3\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\IO-Compress\blib\script\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\IO-Socket-IP\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\IO-Zlib\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\IPC-Cmd\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\JSON-PP\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\JSON-PP\blib\bin\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\JSON-PP\blib\man1\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\JSON-PP\blib\man3\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\JSON-PP\blib\script\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\libnet\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\libnet\blib\bin\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\libnet\blib\man1\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\libnet\blib\man3\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\libnet\blib\script\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Locale-Codes\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Locale-Maketext-Simple\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Math-Complex\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Memoize\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Module-Load\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Module-Load-Conditional\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Module-Loaded\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Module-Metadata\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Module-Metadata\blib\bin\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Module-Metadata\blib\man1\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Module-Metadata\blib\man3\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Module-Metadata\blib\script\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\NEXT\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Params-Check\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\parent\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Parse-CPAN-Meta\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Perl-OSType\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\perlfaq\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\PerlIO-via-QuotedPrint\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Checker\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Checker\blib\bin\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Checker\blib\man1\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Checker\blib\man3\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Checker\blib\script\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Escapes\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Parser\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Parser\blib\bin\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Parser\blib\man1\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Parser\blib\man3\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Parser\blib\script\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Perldoc\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Perldoc\blib\bin\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Perldoc\blib\man1\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Perldoc\blib\man3\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Perldoc\blib\script\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Usage\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Usage\blib\bin\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Usage\blib\man1\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Usage\blib\man3\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Usage\blib\script\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\podlators\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\podlators\blib\bin\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\podlators\blib\man1\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\podlators\blib\man3\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\podlators\blib\script\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Term-ANSIColor\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Term-Cap\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Term-Cap\blib\bin\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Term-Cap\blib\man1\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Term-Cap\blib\man3\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Term-Cap\blib\script\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Test\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Test-Harness\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Test-Harness\blib\bin\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Test-Harness\blib\man1\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Test-Harness\blib\man3\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Test-Harness\blib\script\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Test-Simple\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Text-Balanced\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Text-ParseWords\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Text-Tabs\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Tie-RefHash\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Time-Local\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Unicode-Normalize\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Unicode-Normalize\blib\bin\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Unicode-Normalize\blib\man1\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Unicode-Normalize\blib\man3\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Unicode-Normalize\blib\script\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\version\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\autouse\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\base\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\bignum\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\constant\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Filter-Simple\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\I18N-Collate\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\I18N-LangTags\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\if\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\lib\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\lib\blib\bin\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\lib\blib\man1\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\lib\blib\man3\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\lib\blib\script\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Locale-Maketext\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Math-BigInt\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Math-BigRat\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Module-CoreList\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Module-CoreList\blib\bin\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Module-CoreList\blib\man1\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Module-CoreList\blib\man3\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Module-CoreList\blib\script\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Net-Ping\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Safe\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Search-Dict\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\SelfLoader\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Term-Complete\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Term-ReadLine\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Text-Abbrev\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Thread-Queue\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Thread-Semaphore\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Tie-File\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\XSLoader\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\XSLoader\blib\bin\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\XSLoader\blib\man1\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\XSLoader\blib\man3\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\XSLoader\blib\script\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\ext\File-Find\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\ext\FileCache\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\ext\IPC-Open3\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\ext\Pod-Functions\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\ext\Pod-Functions\blib\bin\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\ext\Pod-Functions\blib\man1\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\ext\Pod-Functions\blib\man3\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\ext\Pod-Functions\blib\script\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\ext\Pod-Html\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\ext\Pod-Html\blib\bin\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\ext\Pod-Html\blib\man1\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\ext\Pod-Html\blib\man3\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\ext\Pod-Html\blib\script\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\ext\Tie-Memoize\pm_to_blib
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\auto\HTTP\Tiny\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\auto\IO\Compress\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\auto\JSON\PP\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\auto\lib\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\auto\Module\CoreList\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\auto\Module\Metadata\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\auto\Net\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\auto\Pod\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\auto\Pod\Checker\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\auto\Pod\Functions\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\auto\Pod\Html\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\auto\Pod\Parser\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\auto\Pod\Perldoc\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\auto\Pod\Usage\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\auto\Term\Cap\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\auto\Test\Harness\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\auto\Unicode\Normalize\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\auto\XSLoader\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\ExtUtils\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\Pod\.exists
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\Unicode\.exists
+  	cd ..\ext && del /s *.def Makefile Makefile.old
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\ext\Pod-Functions\Makefile
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\ext\Pod-Html\Makefile
+  	cd ..\dist && del /s *.def Makefile Makefile.old
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\lib\Makefile
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\Module-CoreList\Makefile
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dist\XSLoader\Makefile
+  	cd ..\cpan && del /s *.def Makefile Makefile.old
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\HTTP-Tiny\Makefile
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\IO-Compress\Makefile
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\JSON-PP\Makefile
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\libnet\Makefile
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Module-Metadata\Makefile
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Checker\Makefile
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Parser\Makefile
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Perldoc\Makefile
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Pod-Usage\Makefile
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\podlators\Makefile
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Term-Cap\Makefile
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Test-Harness\Makefile
+  Deleted file - C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cpan\Unicode-Normalize\Makefile
+  	del /s ..\utils\Makefile
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\utils\Makefile
+  	if exist ..\lib\auto rmdir /s /q ..\lib\auto
+  	if exist ..\lib\CORE rmdir /s /q ..\lib\CORE
+  	if exist pod2htmd.tmp del pod2htmd.tmp
+  	if exist .\html rmdir /s /q .\html
+  	del /f ..\t\test_state
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\t\test_state
+  	del /f config.h
+  Could Not Find C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\config.h
+  	copy config_H.vc config.h
+          1 file(s) copied.
+  	if not exist ".\mini" mkdir ".\mini"
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\av.obj ..\av.c
+  av.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\caretx.obj ..\caretx.c
+  caretx.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\deb.obj ..\deb.c
+  deb.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\doio.obj ..\doio.c
+  doio.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\doop.obj ..\doop.c
+  doop.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\dump.obj ..\dump.c
+  dump.c
+  	cl -c -I.. -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL  -D_CRT_SECURE_NO_WARNINGS -DPERL_TEXTMODE_SCRIPTS -DPERL_IMPLICIT_CONTEXT -DPERL_IMPLICIT_SYS -Fo..\generate_uudmap.obj ..\generate_uudmap.c
+  generate_uudmap.c
+  	link -subsystem:console -out:..\generate_uudmap.exe -nologo -debug -opt:ref,icf -ltcg  -libpath:"c:\perl\lib\CORE"  -machine:x86 "/manifestdependency:type='Win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'" oldnames.lib kernel32.lib user32.lib gdi32.lib winspool.lib  comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib  netapi32.lib uuid.lib ws2_32.lib mpr.lib winmm.lib  version.lib odbc32.lib odbccp32.lib comctl32.lib libcmt.lib libvcruntime.lib libucrt.lib ..\generate_uudmap.obj
+  Generating code
+  Finished generating code
+  	if exist ..\generate_uudmap.exe.manifest mt -nologo -manifest ..\generate_uudmap.exe.manifest -outputresource:..\generate_uudmap.exe;1 &&  if exist ..\generate_uudmap.exe.manifest del ..\generate_uudmap.exe.manifest
+  	..\generate_uudmap.exe ..\uudmap.h ..\bitcount.h ..\mg_data.h
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\globals.obj ..\globals.c
+  globals.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\gv.obj ..\gv.c
+  gv.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\mro_core.obj ..\mro_core.c
+  mro_core.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\hv.obj ..\hv.c
+  hv.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\locale.obj ..\locale.c
+  locale.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\keywords.obj ..\keywords.c
+  keywords.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\mathoms.obj ..\mathoms.c
+  mathoms.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\mg.obj ..\mg.c
+  mg.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\numeric.obj ..\numeric.c
+  numeric.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\op.obj ..\op.c
+  op.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\pad.obj ..\pad.c
+  pad.c
+..\pad.c(2808): warning C4267: '=': conversion from 'size_t' to 'U8', possible loss of data
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\perl.obj ..\perl.c
+  perl.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\perlapi.obj ..\perlapi.c
+  perlapi.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\perly.obj ..\perly.c
+  perly.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\pp.obj ..\pp.c
+  pp.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\pp_ctl.obj ..\pp_ctl.c
+  pp_ctl.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\pp_hot.obj ..\pp_hot.c
+  pp_hot.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\pp_pack.obj ..\pp_pack.c
+  pp_pack.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\pp_sort.obj ..\pp_sort.c
+  pp_sort.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\pp_sys.obj ..\pp_sys.c
+  pp_sys.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\reentr.obj ..\reentr.c
+  reentr.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\regcomp.obj ..\regcomp.c
+  regcomp.c
+..\regcomp.c(2996): warning C4267: '+=': conversion from 'size_t' to 'U8', possible loss of data
+..\regcomp.c(11540): warning C4267: '=': conversion from 'size_t' to 'U8', possible loss of data
+..\regcomp.c(12906): warning C4267: '=': conversion from 'size_t' to 'U8', possible loss of data
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\regexec.obj ..\regexec.c
+  regexec.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\run.obj ..\run.c
+  run.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\scope.obj ..\scope.c
+  scope.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\sv.obj ..\sv.c
+  sv.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\taint.obj ..\taint.c
+  taint.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\toke.obj ..\toke.c
+  toke.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\universal.obj ..\universal.c
+  universal.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\utf8.obj ..\utf8.c
+  utf8.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\util.obj ..\util.c
+  util.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\miniperlmain.obj ..\miniperlmain.c
+  miniperlmain.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_EXTERNAL_GLOB -DPERL_IS_MINIPERL -Fo.\mini\perlio.obj ..\perlio.c
+  perlio.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_IS_MINIPERL -Fo.\mini\win32.obj win32.c
+  win32.c
+win32.c(4438): warning C4996: 'GetVersionExA': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\sysinfoapi.h(436): note: see declaration of 'GetVersionExA'
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_IS_MINIPERL -Fo.\mini\win32io.obj win32io.c
+  win32io.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_IS_MINIPERL -Fo.\mini\win32sck.obj win32sck.c
+  win32sck.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_IS_MINIPERL -Fo.\mini\win32thread.obj win32thread.c
+  win32thread.c
+  	cl -c -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL -DPERL_IS_MINIPERL -Fo.\mini\fcrypt.obj fcrypt.c
+  fcrypt.c
+  	link -subsystem:console -out:..\miniperl.exe @C:\Temp\nm2E33.tmp
+  Generating code
+  Finished generating code
+  	if exist ..\miniperl.exe.manifest mt -nologo -manifest ..\miniperl.exe.manifest -outputresource:..\miniperl.exe;1 &&  if exist ..\miniperl.exe.manifest del ..\miniperl.exe.manifest
+  	..\miniperl.exe -I..\lib -f ..\write_buildcustomize.pl ..
+  	cd .. && miniperl -Ilib make_patchnum.pl && cd win32
+  Updating 'git_version.h' and 'lib/Config_git.pl'
+  	cl -c -I. -nologo -GF -W3 -I..\lib\CORE -I.\include -I. -I.. -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS -DPERLDLL -DPERL_CORE   -O1  -Zi -DNDEBUG -GL  -D_CRT_SECURE_NO_WARNINGS -DPERL_TEXTMODE_SCRIPTS -DPERL_IMPLICIT_CONTEXT -DPERL_IMPLICIT_SYS -Foperlglob.obj perlglob.c
+  perlglob.c
+  	link -nologo -debug -opt:ref,icf -ltcg  -libpath:"c:\perl\lib\CORE"  -machine:x86 "/manifestdependency:type='Win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'" oldnames.lib kernel32.lib user32.lib gdi32.lib winspool.lib  comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib  netapi32.lib uuid.lib ws2_32.lib mpr.lib winmm.lib  version.lib odbc32.lib odbccp32.lib comctl32.lib libcmt.lib libvcruntime.lib libucrt.lib -out:..\perlglob.exe -subsystem:console  perlglob.obj setargv.obj
+  Generating code
+  Finished generating code
+  	if exist ..\perlglob.exe.manifest mt -nologo -manifest ..\perlglob.exe.manifest -outputresource:..\perlglob.exe;1 &&  if exist ..\perlglob.exe.manifest del ..\perlglob.exe.manifest
+  	copy config.vc config.w32
+          1 file(s) copied.
+  	..\miniperl.exe -I..\lib config_sh.PL "INST_TOP=c:\perl"			 "INST_VER="			 "INST_ARCH="		 "archname=MSWin32-x86-multi-thread"			 "cc=cl"				 "ld=link"				 "ccflags=-nologo -GF -W3 -O1  -Zi -DNDEBUG -GL -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS  -D_CRT_SECURE_NO_WARNINGS -DPERL_TEXTMODE_SCRIPTS -DPERL_IMPLICIT_CONTEXT -DPERL_IMPLICIT_SYS"	 "usecplusplus="		 "cf_email="	 		 "d_mymalloc=undef"		 "libs=oldnames.lib kernel32.lib user32.lib gdi32.lib winspool.lib  comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib  netapi32.lib uuid.lib ws2_32.lib mpr.lib winmm.lib  version.lib odbc32.lib odbccp32.lib comctl32.lib libcmt.lib libvcruntime.lib libucrt.lib"			 "incpath=\include"		 "libperl=perl522.lib"		 "libpth=\lib;"	 "libc=libucrt.lib"				 "make=nmake"				 "static_ext=Win32CORE"		 "usethreads=define"		 "useithreads=define"		 "usemultiplicity=define"		 "use64bitint=undef"		 "uselongdouble=undef"			 "uselargefiles=define"	 "usesitecustomize=undef"	 "LINK_FLAGS=-nologo -debug -opt:ref,icf -ltcg  -libpath:\"c:\perl\lib\CORE\"  -machine:x86 \"/manifestdependency:type='Win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'\""		 "optimize=-O1  -Zi -DNDEBUG -GL"		 "WIN64=undef" config.w32 > ..\config.sh
+  	..\miniperl.exe -I..\lib ..\configpm --chdir=..
+  written lib/Config.pod
+  updated lib/Config.pm
+  updated lib/Config_heavy.pl
+  	xcopy /f /r /i /d /y ..\*.h ..\lib\CORE\*.*
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\av.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\av.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\bitcount.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\bitcount.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\charclass_invlists.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\charclass_invlists.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cop.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\cop.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\cv.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\cv.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\dosish.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\dosish.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\ebcdic_tables.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\ebcdic_tables.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\embed.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\embed.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\embedvar.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\embedvar.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\EXTERN.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\EXTERN.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\fakesdio.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\fakesdio.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\feature.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\feature.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\form.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\form.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\git_version.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\git_version.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\gv.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\gv.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\handy.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\handy.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\hv.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\hv.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\hv_func.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\hv_func.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\inline.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\inline.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\INTERN.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\INTERN.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\intrpvar.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\intrpvar.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\iperlsys.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\iperlsys.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\keywords.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\keywords.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\l1_char_class_tab.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\l1_char_class_tab.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\malloc_ctl.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\malloc_ctl.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\metaconfig.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\metaconfig.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\mg.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\mg.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\mg_data.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\mg_data.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\mg_raw.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\mg_raw.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\mg_vtable.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\mg_vtable.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\mydtrace.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\mydtrace.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\nostdio.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\nostdio.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\op.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\op.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\opcode.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\opcode.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\opnames.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\opnames.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\op_reg_common.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\op_reg_common.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\overload.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\overload.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\pad.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\pad.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\parser.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\parser.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\patchlevel.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\patchlevel.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\perl.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\perl.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\perlapi.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\perlapi.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\perlio.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\perlio.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\perliol.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\perliol.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\perlsdio.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\perlsdio.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\perlvars.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\perlvars.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\perly.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\perly.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\pp.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\pp.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\pp_proto.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\pp_proto.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\proto.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\proto.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\reentr.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\reentr.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\regcharclass.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\regcharclass.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\regcomp.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\regcomp.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\regexp.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\regexp.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\regnodes.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\regnodes.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\scope.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\scope.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\sv.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\sv.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\thread.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\thread.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\time64.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\time64.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\time64_config.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\time64_config.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\uconfig.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\uconfig.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\unicode_constants.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\unicode_constants.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\unixish.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\unixish.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\utf8.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\utf8.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\utfebcdic.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\utfebcdic.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\util.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\util.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\uudmap.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\uudmap.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\vutil.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\vutil.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\warnings.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\warnings.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\XSUB.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\XSUB.h
+  70 File(s) copied
+  	xcopy /f /r /i /d /y *.h ..\lib\CORE\*.*
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\config.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\config.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\perlhost.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\perlhost.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\vdir.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\vdir.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\vmem.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\vmem.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\win32.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\win32.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\win32iop-o.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\win32iop-o.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\win32iop.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\win32iop.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\win32thread.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\win32thread.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\wince.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\wince.h
+  9 File(s) copied
+  	xcopy /f /r /i /e /d /y include ..\lib\CORE\*.*
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\include\dirent.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\dirent.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\include\netdb.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\netdb.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\include\arpa\inet.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\arpa\inet.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\include\sys\errno2.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\sys\errno2.h
+  C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\include\sys\socket.h -> C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\lib\CORE\sys\socket.h
+  5 File(s) copied
+  	..\miniperl.exe -I..\lib config_h.PL
+  Running config_h.PL
+  Writing config.h
+  config.h has changed
+  	if errorlevel 1 nmake -nologo /                   ..\lib\Config.pm ..\lib\Config_heavy.pl
+  	..\miniperl.exe -I..\lib create_perllibst_h.pl
+  	..\miniperl.exe -I..\lib -w ..\makedef.pl PLATFORM=win32 -O1  -Zi -DNDEBUG -GL -DWIN32 -D_CONSOLE -DNO_STRICT -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_WINSOCK_DEPRECATED_NO_WARNINGS  -D_CRT_SECURE_NO_WARNINGS -DPERL_TEXTMODE_SCRIPTS -DPERL_IMPLICIT_CONTEXT -DPERL_IMPLICIT_SYS  CCTYPE=MSVC140 TARG_DIR=..\ > perldll.def
+  Options: (HAS_TIMES HAVE_INTERP_INTERN PERLIO_LAYERS PERL_DISABLE_PMC PERL_DONT_CREATE_GVSV PERL_EXTERNAL_GLOB PERL_HASH_FUNC_ONE_AT_A_TIME_HARD PERL_IS_MINIPERL PERL_MALLOC_WRAP PERL_NEW_COPY_ON_WRITE PERL_PRESERVE_IVUV USE_LOCALE USE_LOCALE_COLLATE USE_LOCALE_CTYPE USE_LOCALE_NUMERIC USE_LOCALE_TIME USE_PERLIO USE_PERL_ATOF USE_SITECUSTOMIZE)
+  Defines: (HAS_ACCESS HAS_ALARM HAS_CHSIZE HAS_CRYPT HAS_DBL_DIG HAS_DIFFTIME HAS_DLERROR HAS_DUP2 HAS_FAST_STDIO HAS_FD_SET HAS_FGETPOS HAS_FLOCK HAS_FLOCK_PROTO HAS_FSETPOS HAS_GETCWD HAS_GETHOSTBYADDR HAS_GETHOSTBYNAME HAS_GETHOSTNAME HAS_GETHOST_PROTOS HAS_GETLOGIN HAS_GETPROTOBYNAME HAS_GETPROTOBYNUMBER HAS_GETPROTO_PROTOS HAS_GETSERVBYNAME HAS_GETSERVBYPORT HAS_GETSERV_PROTOS HAS_GETTIMEOFDAY HAS_HTONL HAS_HTONS HAS_ISASCII HAS_ISNAN HAS_KILLPG HAS_LDBL_DIG HAS_LINK HAS_LOCALECONV HAS_LONG_DOUBLE HAS_LSEEK_PROTO HAS_MBLEN HAS_MBSTOWCS HAS_MBTOWC HAS_MEMCHR HAS_MEMCMP HAS_MEMCPY HAS_MEMMOVE HAS_MEMSET HAS_MKDIR HAS_MKTIME HAS_NTOHL HAS_NTOHS HAS_PAUSE HAS_PIPE HAS_PSEUDOFORK HAS_PTRDIFF_T HAS_QUAD HAS_READDIR HAS_RENAME HAS_REWINDDIR HAS_RMDIR HAS_SANE_MEMCMP HAS_SEEKDIR HAS_SELECT HAS_SETLOCALE HAS_SETVBUF HAS_SIN6_SCOPE_ID HAS_SNPRINTF HAS_SOCKET HAS_STAT HAS_STATIC_INLINE HAS_STRCHR HAS_STRCOLL HAS_STRERROR HAS_STRFTIME HAS_STRTOD HAS_STRTOL HAS_STRTOUL HAS_STRXFRM HAS_SYSTEM HAS_SYS_ERRLIST HAS_TELLDIR HAS_TELLDIR_PROTO HAS_TIME HAS_TIMES HAS_TZNAME HAS_UMASK HAS_UNAME HAS_UNION_SEMUN HAS_VPRINTF HAS_VSNPRINTF HAS_WAITPID HAS_WCSCMP HAS_WCSTOMBS HAS_WCSXFRM HAS_WCTOMB HAVE_INTERP_INTERN MULTIPLICITY NDEBUG NO_STRICT PERLIO_LAYERS PERL_DISABLE_PMC PERL_DONT_CREATE_GVSV PERL_EXTERNAL_GLOB PERL_HASH_FUNC_ONE_AT_A_TIME_HARD PERL_IMPLICIT_CONTEXT PERL_IMPLICIT_SYS PERL_IS_MINIPERL PERL_MALLOC_WRAP PERL_NEW_COPY_ON_WRITE PERL_PRESERVE_IVUV PERL_RELOCATABLE_INC PERL_STATIC_INLINE PERL_TARGETARCH PERL_TEXTMODE_SCRIPTS SPRINTF_RETURNS_STRLEN USE_DYNAMIC_LOADING USE_ITHREADS USE_LARGE_FILES USE_LOCALE USE_LOCALE_COLLATE USE_LOCALE_CTYPE USE_LOCALE_NUMERIC USE_LOCALE_TIME USE_PERLIO USE_PERL_ATOF USE_SITECUSTOMIZE USE_STDIO_BASE USE_STDIO_PTR USE_STRUCT_COPY USE_THREADS WIN32 _CONSOLE _CRT_NONSTDC_NO_DEPRECATE _CRT_SECURE_NO_DEPRECATE _CRT_SECURE_NO_WARNINGS _WINSOCK_DEPRECATED_NO_WARNINGS)
+  	xcopy /f /r /i /d /y ..\*.h ..\lib\CORE\*.*
+  0 File(s) copied
+  	..\miniperl.exe -I..\lib ..\make_ext.pl "MAKE=nmake -nologo" --dir=..\cpan --dir=..\dist --dir=..\ext --nonxs
+  
+  Running pm_to_blib for cpan/Pod-Simple directly
+  Generating a nmake-style Makefile
+  Writing Makefile for Archive::Tar
+  
+  Running pm_to_blib for dist/Attribute-Handlers directly
+  
+  Running pm_to_blib for cpan/AutoLoader directly
+  
+  Running pm_to_blib for cpan/B-Debug directly
+  Generating a nmake-style Makefile
+  Writing Makefile for CPAN
+  
+  Running pm_to_blib for cpan/CPAN-Meta directly
+  
+  Running pm_to_blib for cpan/CPAN-Meta-Requirements directly
+  
+  Running pm_to_blib for cpan/CPAN-Meta-YAML directly
+  
+  Running pm_to_blib for dist/Carp directly
+  
+  Running pm_to_blib for cpan/Config-Perl-V directly
+  
+  Running pm_to_blib for dist/Devel-SelfStubber directly
+  
+  Running pm_to_blib for cpan/Digest directly
+  
+  Running pm_to_blib for dist/Dumpvalue directly
+  
+  Running pm_to_blib for dist/Env directly
+  Generating a nmake-style Makefile
+  Writing Makefile for Errno
+  	"..\..\miniperl.exe" "-I..\..\lib" "-I..\..\lib" Errno_pm.PL Errno.pm
+  errno.c
+  errno.c
+  
+  Running pm_to_blib for dist/Exporter directly
+  
+  Running pm_to_blib for dist/ExtUtils-CBuilder directly
+  
+  Running pm_to_blib for cpan/ExtUtils-Command directly
+  
+  Running pm_to_blib for cpan/ExtUtils-Constant directly
+  
+  Running pm_to_blib for cpan/ExtUtils-Install directly
+  Generating a nmake-style Makefile
+  Writing Makefile for ExtUtils::MakeMaker
+  
+  Running pm_to_blib for cpan/ExtUtils-Manifest directly
+  Generating a nmake-style Makefile
+  Writing Makefile for ExtUtils::Manifest
+  
+  Running pm_to_blib for ext/ExtUtils-Miniperl directly
+  
+  Running pm_to_blib for dist/ExtUtils-ParseXS directly
+  Generating a nmake-style Makefile
+  Writing Makefile for ExtUtils::ParseXS
+  
+  Running pm_to_blib for cpan/File-Fetch directly
+  
+  Running pm_to_blib for ext/File-Find directly
+  
+  Running pm_to_blib for cpan/File-Path directly
+  
+  Running pm_to_blib for cpan/File-Temp directly
+  
+  Running pm_to_blib for ext/FileCache directly
+  
+  Running pm_to_blib for dist/Filter-Simple directly
+  
+  Running pm_to_blib for cpan/Getopt-Long directly
+  Generating a nmake-style Makefile
+  Writing Makefile for HTTP::Tiny
+  
+  Running pm_to_blib for dist/I18N-Collate directly
+  
+  Running pm_to_blib for dist/I18N-LangTags directly
+  Generating a nmake-style Makefile
+  Writing Makefile for IO::Compress
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e cp -- bin/zipdetails blib\script\zipdetails
+  	"..\..\miniperl.exe" "-I..\..\lib" "-I..\..\lib" ..\..\win32\bin\pl2bat.pl blib\script\zipdetails
+  
+  Running pm_to_blib for cpan/IO-Socket-IP directly
+  
+  Running pm_to_blib for cpan/IO-Zlib directly
+  
+  Running pm_to_blib for cpan/IPC-Cmd directly
+  
+  Running pm_to_blib for ext/IPC-Open3 directly
+  Generating a nmake-style Makefile
+  Writing Makefile for JSON::PP
+  
+  Running pm_to_blib for cpan/Locale-Codes directly
+  
+  Running pm_to_blib for dist/Locale-Maketext directly
+  
+  Running pm_to_blib for cpan/Locale-Maketext-Simple directly
+  
+  Running pm_to_blib for dist/Math-BigInt directly
+  
+  Running pm_to_blib for dist/Math-BigRat directly
+  
+  Running pm_to_blib for cpan/Math-Complex directly
+  
+  Running pm_to_blib for cpan/Memoize directly
+  Generating a nmake-style Makefile
+  Writing Makefile for Module::CoreList
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e cp -- corelist blib\script\corelist
+  	"..\..\miniperl.exe" "-I..\..\lib" "-I..\..\lib" ..\..\win32\bin\pl2bat.pl blib\script\corelist
+  
+  Running pm_to_blib for cpan/Module-Load directly
+  
+  Running pm_to_blib for cpan/Module-Load-Conditional directly
+  
+  Running pm_to_blib for cpan/Module-Loaded directly
+  Generating a nmake-style Makefile
+  Writing Makefile for Module::Metadata
+  
+  Running pm_to_blib for cpan/NEXT directly
+  
+  Running pm_to_blib for dist/Net-Ping directly
+  
+  Running pm_to_blib for cpan/Params-Check directly
+  
+  Running pm_to_blib for cpan/Parse-CPAN-Meta directly
+  
+  Running pm_to_blib for cpan/Perl-OSType directly
+  
+  Running pm_to_blib for cpan/PerlIO-via-QuotedPrint directly
+  Generating a nmake-style Makefile
+  Writing Makefile for Pod::Checker
+  	"..\..\miniperl.exe" "-I..\..\lib" "-I..\..\lib" "-I..\..\lib" "-I..\..\lib" podchecker.PL podchecker
+  Extracting podchecker (with variable substitutions)
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e cp -- podchecker blib\script\podchecker
+  	"..\..\miniperl.exe" "-I..\..\lib" "-I..\..\lib" ..\..\win32\bin\pl2bat.pl blib\script\podchecker
+  
+  Running pm_to_blib for cpan/Pod-Escapes directly
+  Generating a nmake-style Makefile
+  Writing Makefile for Pod::Functions
+  Generating a nmake-style Makefile
+  Writing Makefile for Pod::Html
+  Generating a nmake-style Makefile
+  Writing Makefile for Pod::Parser
+  	"..\..\miniperl.exe" "-I..\..\lib" "-I..\..\lib" "-I..\..\lib" "-I..\..\lib" podselect.PL podselect
+  Extracting podselect (with variable substitutions)
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e cp -- podselect blib\script\podselect
+  	"..\..\miniperl.exe" "-I..\..\lib" "-I..\..\lib" ..\..\win32\bin\pl2bat.pl blib\script\podselect
+  Generating a nmake-style Makefile
+  Writing Makefile for Pod::Perldoc
+  Generating a nmake-style Makefile
+  Writing Makefile for Pod::Usage
+  	"..\..\miniperl.exe" "-I..\..\lib" "-I..\..\lib" "-I..\..\lib" "-I..\..\lib" pod2usage.PL pod2usage
+  Extracting pod2usage (with variable substitutions)
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e cp -- pod2usage blib\script\pod2usage
+  	"..\..\miniperl.exe" "-I..\..\lib" "-I..\..\lib" ..\..\win32\bin\pl2bat.pl blib\script\pod2usage
+  
+  Running pm_to_blib for dist/Safe directly
+  
+  Running pm_to_blib for dist/Search-Dict directly
+  
+  Running pm_to_blib for dist/SelfLoader directly
+  
+  Running pm_to_blib for cpan/Term-ANSIColor directly
+  Generating a nmake-style Makefile
+  Writing Makefile for Term::Cap
+  
+  Running pm_to_blib for dist/Term-Complete directly
+  
+  Running pm_to_blib for dist/Term-ReadLine directly
+  
+  Running pm_to_blib for cpan/Test directly
+  Generating a nmake-style Makefile
+  Writing Makefile for Test::Harness
+  
+  Running pm_to_blib for cpan/Test-Simple directly
+  
+  Running pm_to_blib for dist/Text-Abbrev directly
+  
+  Running pm_to_blib for cpan/Text-Balanced directly
+  
+  Running pm_to_blib for cpan/Text-ParseWords directly
+  
+  Running pm_to_blib for cpan/Text-Tabs directly
+  
+  Running pm_to_blib for dist/Thread-Queue directly
+  
+  Running pm_to_blib for dist/Thread-Semaphore directly
+  
+  Running pm_to_blib for dist/Tie-File directly
+  
+  Running pm_to_blib for ext/Tie-Memoize directly
+  
+  Running pm_to_blib for cpan/Tie-RefHash directly
+  
+  Running pm_to_blib for cpan/Time-Local directly
+  Generating a nmake-style Makefile
+  Writing Makefile for Unicode::Normalize
+  Generating a nmake-style Makefile
+  Writing Makefile for XSLoader
+  	"..\..\miniperl.exe" "-I..\..\lib" "-I..\..\lib" XSLoader_pm.PL XSLoader.pm
+  
+  Running pm_to_blib for cpan/autodie directly
+  
+  Running pm_to_blib for dist/autouse directly
+  
+  Running pm_to_blib for dist/base directly
+  
+  Running pm_to_blib for dist/bignum directly
+  
+  Running pm_to_blib for dist/constant directly
+  
+  Running pm_to_blib for cpan/encoding-warnings directly
+  
+  Running pm_to_blib for cpan/experimental directly
+  
+  Running pm_to_blib for dist/if directly
+  Generating a nmake-style Makefile
+  Writing Makefile for lib
+  Generating a nmake-style Makefile
+  Writing Makefile for Net
+  
+  Running pm_to_blib for cpan/parent directly
+  
+  Running pm_to_blib for cpan/perlfaq directly
+  Generating a nmake-style Makefile
+  Writing Makefile for Pod
+  	"..\..\miniperl.exe" "-I..\..\lib" "-I..\..\lib" "-I..\..\lib" "-I..\..\lib" pod2text.PL pod2text
+  Extracting pod2text (with variable substitutions)
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e cp -- pod2text blib\script\pod2text
+  	"..\..\miniperl.exe" "-I..\..\lib" "-I..\..\lib" ..\..\win32\bin\pl2bat.pl blib\script\pod2text
+  	"..\..\miniperl.exe" "-I..\..\lib" "-I..\..\lib" "-I..\..\lib" "-I..\..\lib" pod2man.PL pod2man
+  Extracting pod2man (with variable substitutions)
+  	"C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe" "-I..\..\lib" "-I..\..\lib" -MExtUtils::Command -e cp -- pod2man blib\script\pod2man
+  	"..\..\miniperl.exe" "-I..\..\lib" "-I..\..\lib" ..\..\win32\bin\pl2bat.pl blib\script\pod2man
+  
+  Running pm_to_blib for cpan/version directly
+  	cd ..\lib\unicore &&  ..\..\miniperl.exe -I.. mktables -P ..\..\pod -maketest -makelist -p -check ..\lib\unicore\Decomposition.pl ..\lib\unicore\Decomposition.pl
+  Processing PropertyAliases.txt
+  Finishing property setup
+  Processing PropValueAliases.txt
+  Processing DAge.txt
+  Processing extracted\DGeneralCategory.txt
+  Processing extracted\DCombiningClass.txt
+  Processing extracted\DNumType.txt
+  Processing extracted\DEastAsianWidth.txt
+  Processing extracted\DLineBreak.txt
+  Processing extracted\DBidiClass.txt
+  Processing extracted\DDecompositionType.txt
+  Processing extracted\DBinaryProperties.txt
+  Processing extracted\DNumValues.txt
+  Processing extracted\DJoinGroup.txt
+  Processing extracted\DJoinType.txt
+  Processing Jamo.txt
+  Processing UnicodeData.txt
+  Processing ArabicShaping.txt
+  Processing Blocks.txt
+  Processing PropList.txt
+  Processing SpecialCasing.txt
+  Processing LineBreak.txt
+  Processing EastAsianWidth.txt
+  Processing CompositionExclusions.txt
+  Processing BidiMirroring.txt
+  Processing CaseFolding.txt
+  Processing DCoreProperties.txt
+  Processing Scripts.txt
+  Processing DNormalizationProps.txt
+  Processing HangulSyllableType.txt
+  Processing auxiliary\WordBreakProperty.txt
+  Processing auxiliary\GraphemeBreakProperty.txt
+  Processing auxiliary\GCBTest.txt
+  Processing auxiliary\SBTest.txt
+  Processing auxiliary\WBTest.txt
+  Processing auxiliary\SentenceBreakProperty.txt
+  Processing NamedSequences.txt
+  Processing NameAliases.txt
+  Processing ScriptExtensions.txt
+  Processing BidiBrackets.txt
+  Finishing processing Unicode properties
+  Compiling Perl properties
+  Creating Perl synonyms
+  Writing tables
+  Making pod file
+  Making test script
+  Updating 'mktables.lst'
+  	..\miniperl.exe -I..\lib ..\mkppport
+  running ""C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe"" -I..\..\lib PPPort_pm.PL
+  '""C:\Users\Chad' is not recognized as an internal or external command,
+  operable program or batch file.
+  ""C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\miniperl.exe"" -I..\..\lib PPPort_pm.PL failed: 256
+NMAKE : fatal error U1077: '..\miniperl.exe' : return code '0x2'
+  Stop.
+  The system cannot find the file specified.
+  The system cannot find the file specified.
+  The system cannot find the file specified.
+  The system cannot find the file specified.
+  The system cannot find the file specified.
+  The system cannot find the file specified.
+  The system cannot find the file specified.
+  The system cannot find the file specified.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\BuildPerl.cmd" "0" "C:\Users\Chad Singer\OneDrive - Protohype Studios\Projects\UPerl\Perl-5.2.2\Source\win32\Makefile" "rebuild"" exited with code -1.

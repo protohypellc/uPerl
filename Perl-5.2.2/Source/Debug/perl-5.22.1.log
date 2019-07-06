@@ -1,0 +1,112 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of compress.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are cpan\compress-raw-bzip2\bzip2-src\compress.c, cpan\compress-raw-zlib\zlib-src\compress.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of util.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ext\sdbm_file\util.c, util.c.
+  wincesck.c
+win32\wincesck.c(28): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  wince.c
+win32\wince.c(23): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  win32thread.c
+win32\win32thread.c(1): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  win32sck.c
+win32\win32sck.c(21): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  win32io.c
+win32\win32io.c(11): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  win32ceio.c
+win32\win32ceio.c(9): fatal error C1083: Cannot open include file: 'cewin32.h': No such file or directory
+  win32.c
+win32\win32.c(50): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  runperl.c
+win32\runperl.c(5): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  perlmaince.c
+win32\perlmaince.c(3): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  perllib.c
+win32\perllib.c(9): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  perlglob.c
+win32\perlglob.c(48): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _setmode. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(528): note: see declaration of 'setmode'
+win32\perlglob.c(52): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(574): note: see declaration of 'strlwr'
+  fcrypt.c
+  vutil.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  vos.c
+vos\vos.c(21): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+  vms.c
+vms\vms.c(23): fatal error C1083: Cannot open include file: 'acedef.h': No such file or directory
+  munchconfig.c
+vms\munchconfig.c(23): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+  util.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  utf8.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  universal.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  toke.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  time64.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(9): error C2061: syntax error: identifier 'Int64'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(9): error C2059: syntax error: ';'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(10): error C2061: syntax error: identifier 'Time64_T'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(10): error C2059: syntax error: ';'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(11): error C2061: syntax error: identifier 'Year'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(11): error C2059: syntax error: ';'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(21): error C2061: syntax error: identifier 'Year'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(40): error C2059: syntax error: '}'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(52): error C2143: syntax error: missing ')' before '*'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(52): error C2143: syntax error: missing '{' before '*'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(52): error C2059: syntax error: ','
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(52): error C2059: syntax error: ')'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(53): error C2143: syntax error: missing ')' before '*'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(53): error C2143: syntax error: missing '{' before '*'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(53): error C2059: syntax error: ','
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(53): error C2059: syntax error: ')'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(54): error C2061: syntax error: identifier 'S_timegm64'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(54): error C2059: syntax error: ';'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(54): error C2059: syntax error: '<parameter-list>'
+time64.c(57): error C2061: syntax error: identifier 'years_in_gregorian_cycle'
+time64.c(57): error C2059: syntax error: ';'
+time64.c(57): error C2513: ' ': no variable declared before '='
+time64.c(125): error C2146: syntax error: missing ')' before identifier 'year'
+time64.c(125): error C2061: syntax error: identifier 'year'
+time64.c(125): error C2059: syntax error: ';'
+time64.c(125): error C2059: syntax error: ')'
+time64.c(126): error C2449: found '{' at file scope (missing function header?)
+time64.c(131): error C2059: syntax error: '}'
+time64.c(206): error C2061: syntax error: identifier 'S_cycle_offset'
+time64.c(206): error C2059: syntax error: ';'
+time64.c(206): error C2146: syntax error: missing ')' before identifier 'year'
+time64.c(206): error C2061: syntax error: identifier 'year'
+time64.c(206): error C2059: syntax error: ')'
+time64.c(207): error C2449: found '{' at file scope (missing function header?)
+time64.c(222): error C2059: syntax error: '}'
+time64.c(271): warning C4013: 'assert' undefined; assuming extern returning int
+time64.c(274): error C2037: left of 'tm_sec' specifies undefined struct/union 'TM64'
+time64.c(275): error C2037: left of 'tm_min' specifies undefined struct/union 'TM64'
+time64.c(276): error C2037: left of 'tm_hour' specifies undefined struct/union 'TM64'
+time64.c(277): error C2037: left of 'tm_mday' specifies undefined struct/union 'TM64'
+time64.c(278): error C2037: left of 'tm_mon' specifies undefined struct/union 'TM64'
+time64.c(279): error C2037: left of 'tm_year' specifies undefined struct/union 'TM64'
+time64.c(279): error C2065: 'Year': undeclared identifier
+time64.c(279): error C2146: syntax error: missing ';' before identifier 'src'
+time64.c(280): error C2037: left of 'tm_wday' specifies undefined struct/union 'TM64'
+time64.c(281): error C2037: left of 'tm_yday' specifies undefined struct/union 'TM64'
+time64.c(282): error C2037: left of 'tm_isdst' specifies undefined struct/union 'TM64'
+time64.c(310): warning C4013: 'memset' undefined; assuming extern returning int
+time64.c(314): warning C4013: 'memcpy' undefined; assuming extern returning int
+time64.c(305): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+time64.c(326): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(495): note: see declaration of 'gmtime'
+time64.c(341): error C2143: syntax error: missing ')' before '*'
+time64.c(341): error C2143: syntax error: missing '{' before '*'
+time64.c(341): error C2059: syntax error: 'type'
+time64.c(341): error C2059: syntax error: ')'
+time64.c(468): error C2143: syntax error: missing ')' before '*'
+time64.c(468): error C2143: syntax error: missing '{' before '*'
+time64.c(468): error C2365: 'time': redefinition; previous definition was 'function'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(531): note: see declaration of 'time'
+time64.c(468): fatal error C1903: unable to recover from previous error(s); stopping compilation
+  INTERNAL COMPILER ERROR in 'L:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe'
+      Please choose the Technical Support command on the Visual C++
+      Help menu, or open the Technical Support help file for more information

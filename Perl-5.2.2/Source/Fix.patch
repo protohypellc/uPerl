@@ -1,0 +1,596 @@
+From 001215c28296f3b7a8562bec8359df12f1b69481 Mon Sep 17 00:00:00 2001
+From: Steve Hay <steve.m.hay@googlemail.com>
+Date: Wed, 5 Aug 2015 09:08:58 +0100
+Subject: [PATCH] Add experimental support for VS2015 (VC++ 14.0)
+
+Currently builds using the static CRT (which is likely to change in the
+future) and fails a number of tests, as documented in README.win32.
+
+Many thanks to Daniel Dragan for assistance with getting this far. See
+perl #125714 for full details and attribution.
+---
+ README.win32       | 23 ++++++++++----
+ perlio.c           |  2 +-
+ win32/Makefile     | 69 ++++++++++++++++++++++++++++++++++++++----
+ win32/config_sh.PL | 14 +++++++++
+ win32/makefile.mk  | 70 ++++++++++++++++++++++++++++++++++++++----
+ win32/perlhost.h   |  6 ++--
+ win32/win32.c      | 28 ++++++++++++++---
+ win32/win32.h      | 89 ++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ 8 files changed, 271 insertions(+), 30 deletions(-)
+
+diff --git a/README.win32 b/README.win32
+index ec29cfa..7a007cd 100644
+--- a/README.win32
++++ b/README.win32
+@@ -63,10 +63,10 @@ that are also supported by perl's makefile.
+ =back
+ 
+ The Microsoft Visual C++ compilers are also now being given away free. They are
+-available as "Visual C++ Toolkit 2003" or "Visual C++ 2005-2013 Express
++available as "Visual C++ Toolkit 2003" or "Visual C++ 2005-2015 Express
+ Edition" (and also as part of the ".NET Framework SDK") and are the same
+ compilers that ship with "Visual C++ .NET 2003 Professional" or "Visual C++
+-2005-2013 Professional" respectively.
++2005-2015 Professional" respectively.
+ 
+ This port can also be built on IA64/AMD64 using:
+ 
+@@ -142,9 +142,17 @@ and edit win32/config.vc to change "make=nmake" into "make=dmake".  The
+ latter step is only essential if you want to use dmake as your default
+ make for building extensions using MakeMaker.
+ 
+-=item Microsoft Visual C++ 2008-2013 Express Edition
++B<WARNING: Perl currently only has experimental support for Visual C++ 2015.>
++We are currently working on how best to support the significant changes to the
++CRT in this release of Visual C++. In the meantime we have added experimental
++support for building with the static CRT only. This is likely to change in the
++future. A number of test failures are to be expected at this stage, including
++at least some tests in F<run/locale.t>, F<ext/PerlIO-scalar/t/scalar.t> and
++F<ext/XS-Typemap/t/Typemap.t>.
+ 
+-These free versions of Visual C++ 2008-2013 Professional contain the same
++=item Microsoft Visual C++ 2008-2015 Express Edition
++
++These free versions of Visual C++ 2008-2015 Professional contain the same
+ compilers and linkers that ship with the full versions, and also contain
+ everything necessary to build Perl, rather than requiring a separate download
+ of the Windows SDK like previous versions did.
+@@ -154,14 +162,17 @@ L<http://www.microsoft.com/downloads/search.aspx?displaylang=en>.  (Providing ex
+ links to these packages has proven a pointless task because the links keep on
+ changing so often.)
+ 
+-Install Visual C++ 2008-2013 Express, then setup your environment using, e.g.
++Install Visual C++ 2008-2015 Express, then setup your environment using, e.g.
+ 
+ 	C:\Program Files\Microsoft Visual Studio 12.0\Common7\Tools\vsvars32.bat
+ 
+ (assuming the default installation location was chosen).
+ 
+ Perl should now build using the win32/Makefile.  You will need to edit that
+-file to set CCTYPE to one of MSVC90FREE-MSVC120FREE first.
++file to set CCTYPE to one of MSVC90FREE-MSVC140FREE first.
++
++B<See the WARNING above regarding the current status of support for the
++2015 version.>
+ 
+ =item Microsoft Visual C++ 2005 Express Edition
+ 
+diff --git a/perlio.c b/perlio.c
+index ae8cbc9..16ffa47 100644
+--- a/perlio.c
++++ b/perlio.c
+@@ -3180,7 +3180,7 @@ PerlIOStdio_invalidate_fileno(pTHX_ FILE *f)
+        structure at all
+      */
+ #    else
+-    f->_file = -1;
++    PERLIO_FILE_file(f) = -1;
+ #    endif
+     return 1;
+ #  else
+diff --git a/win32/Makefile b/win32/Makefile
+index a2fb2aa..ab2fc45 100644
+--- a/win32/Makefile
++++ b/win32/Makefile
+@@ -1,7 +1,8 @@
+ #
+ # Makefile to build perl on Windows using Microsoft NMAKE.
+ # Supported compilers:
+-#	Microsoft Visual C++ 6.0 or later
++#	Microsoft Visual C++ 6.0 to Visual C++ 2013 (12.0)
++#	Experimental support for Microsoft Visual C++ 2015 (14.0)
+ #	Windows SDK 64-bit compiler and tools
+ #
+ # This is set up to build a perl.exe that runs off a shared library
+@@ -126,6 +127,14 @@ CCTYPE		= MSVC60
+ #CCTYPE		= MSVC120
+ # Visual C++ 2013 Express Edition (aka Visual C++ 12.0) (free version)
+ #CCTYPE		= MSVC120FREE
++#
++# NOTE: Support for Visual C++ 2015 is currently only experimental.
++#       See README.win32 for further details.
++#
++# Visual C++ 2015 (aka Visual C++ 14.0) (full version)
++#CCTYPE		= MSVC140
++# Visual C++ 2015 Express Edition (aka Visual C++ 14.0) (free version)
++#CCTYPE		= MSVC140FREE
+ 
+ #
+ # If you are using Intel C++ Compiler uncomment this
+@@ -443,23 +452,45 @@ DEFINES		= -DWIN32 -D_CONSOLE -DNO_STRICT
+ LOCDEFS		= -DPERLDLL -DPERL_CORE
+ CXX_FLAG	= -TP -EHsc
+ 
++# VS2015 (VC14) should use ucrt.lib rather than msvcrt.lib but for now we
++# specify the static libucrt.lib to gain access to pioinfo, which is otherwise
++# now hidden from us.
++!IF "$(CCTYPE)" == "MSVC140" || "$(CCTYPE)" == "MSVC140FREE"
++
++!IF  "$(CFG)" == "DebugFull"
++LIBC		= libucrtd.lib
++!ELSE
++LIBC		= libucrt.lib
++!ENDIF
++
++LIBC_FLAG	=
++
++!ELSE
++
++!IF  "$(CFG)" == "DebugFull"
++LIBC		= msvcrtd.lib
++LIBC_FLAG	= -MDd
++!ELSE
+ LIBC		= msvcrt.lib
++LIBC_FLAG	= -MD
++!ENDIF
++
++!ENDIF
+ 
+ !IF  "$(CFG)" == "Debug"
+-OPTIMIZE	= -Od -MD -Zi -DDEBUGGING
++OPTIMIZE	= -Od $(LIBC_FLAG) -Zi -DDEBUGGING
+ LINK_DBG	= -debug
+ !ELSE
+ !IF  "$(CFG)" == "DebugSymbols"
+-OPTIMIZE	= -Od -MD -Zi
++OPTIMIZE	= -Od $(LIBC_FLAG) -Zi
+ LINK_DBG	= -debug
+ !ELSE
+ !IF  "$(CFG)" == "DebugFull"
+-LIBC		= msvcrtd.lib
+-OPTIMIZE	= -Od -MDd -Zi -D_DEBUG -DDEBUGGING
++OPTIMIZE	= -Od $(LIBC_FLAG) -Zi -D_DEBUG -DDEBUGGING
+ LINK_DBG	= -debug
+ !ELSE
+ # -O1 yields smaller code, which turns out to be faster than -O2 on x86 and x64
+-OPTIMIZE	= -O1 -MD -Zi -DNDEBUG
++OPTIMIZE	= -O1 $(LIBC_FLAG) -Zi -DNDEBUG
+ # we enable debug symbols in release builds also
+ LINK_DBG	= -debug -opt:ref,icf
+ # you may want to enable this if you want COFF symbols in the executables
+@@ -489,6 +520,11 @@ OPTIMIZE	= $(OPTIMIZE) -fp:precise
+ DEFINES		= $(DEFINES) -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE
+ !ENDIF
+ 
++# Likewise for deprecated Winsock APIs in VC++ 14.0 for now.
++!IF "$(CCTYPE)" == "MSVC140" || "$(CCTYPE)" == "MSVC140FREE"
++DEFINES		= $(DEFINES) -D_WINSOCK_DEPRECATED_NO_WARNINGS
++!ENDIF
++
+ # In VS 2005 (VC++ 8.0) Microsoft changes time_t from 32-bit to
+ # 64-bit, even in 32-bit mode.  It also provides the _USE_32BIT_TIME_T
+ # preprocessor option to revert back to the old functionality for
+@@ -509,6 +545,16 @@ LIBBASEFILES	= \
+ 		netapi32.lib uuid.lib ws2_32.lib mpr.lib winmm.lib \
+ 		version.lib odbc32.lib odbccp32.lib comctl32.lib
+ 
++# See note about ucrt.lib/libucrt.lib above (ideally we want msvcrt(d).lib and
++# vcruntime(d).lib here rather than these static libs).
++!IF "$(CCTYPE)" == "MSVC140" || "$(CCTYPE)" == "MSVC140FREE"
++!  IF  "$(CFG)" == "DebugFull"
++LIBBASEFILES	= $(LIBBASEFILES) libcmtd.lib libvcruntimed.lib
++!  ELSE
++LIBBASEFILES	= $(LIBBASEFILES) libcmt.lib libvcruntime.lib
++!  ENDIF
++!ENDIF
++
+ # Avoid __intel_new_proc_init link error for libircmt.
+ # libmmd is /MD equivelent, other variants exist.
+ # libmmd is Intel C's math addon funcs to MS CRT, contains long doubles, C99,
+@@ -910,6 +956,17 @@ config.w32 : $(CFGSH_TMPL)
+ 	@echo.>>$@
+ 	@echo #ifndef _config_h_footer_>>$@
+ 	@echo #define _config_h_footer_>>$@
++!IF "$(CCTYPE)" == "MSVC140" || "$(CCTYPE)" == "MSVC140FREE"
++	@echo #undef FILE_ptr>>$@
++	@echo #define FILE_ptr(fp) PERLIO_FILE_ptr(fp)>>$@
++	@echo #undef FILE_cnt>>$@
++	@echo #define FILE_cnt(fp) PERLIO_FILE_cnt(fp)>>$@
++	@echo #undef FILE_base>>$@
++	@echo #define FILE_base(fp) PERLIO_FILE_base(fp)>>$@
++	@echo #undef FILE_bufsiz>>$@
++	@echo #define FILE_bufsiz(fp) (PERLIO_FILE_cnt(fp) + PERLIO_FILE_ptr(fp) - PERLIO_FILE_base(fp))>>$@
++	@echo #define I_STDBOOL>>$@
++!ENDIF
+ 	@echo #undef Off_t>>$@
+ 	@echo #undef LSEEKSIZE>>$@
+ 	@echo #undef Off_t_size>>$@
+diff --git a/win32/config_sh.PL b/win32/config_sh.PL
+index 98255a8..69599b1 100644
+--- a/win32/config_sh.PL
++++ b/win32/config_sh.PL
+@@ -270,6 +270,13 @@ if ($opt{cc} =~ /\bcl/ and $opt{ccversion} =~ /^(\d+)/) {
+     if($ccversion < 13) { #VC6
+ 	$opt{ar} ='lib';
+     }
++    if ($ccversion >= 19) { # VC14
++	$opt{stdio_base} = 'PERLIO_FILE_base(fp)';
++	$opt{stdio_bufsiz} = '(PERLIO_FILE_cnt(fp) + PERLIO_FILE_ptr(fp) - PERLIO_FILE_base(fp))';
++	$opt{stdio_cnt} = 'PERLIO_FILE_cnt(fp)';
++	$opt{stdio_ptr} = 'PERLIO_FILE_ptr(fp)';
++	$opt{i_stdbool} = 'define';
++    }
+ }
+ #find out which MSVC this ICC is using
+ elsif ($opt{cc} =~ /\bicl/) {
+@@ -279,6 +286,13 @@ elsif ($opt{cc} =~ /\bicl/) {
+ 	$opt{sGMTIME_max} = 32535291599;
+ 	$opt{sLOCALTIME_max} = 32535244799;
+     }
++    if ($num_ver =~ /^(\d+)/ && $1 >= 19) { # VC14
++	$opt{stdio_base} = 'PERLIO_FILE_base(fp)';
++	$opt{stdio_bufsiz} = '(PERLIO_FILE_cnt(fp) + PERLIO_FILE_ptr(fp) - PERLIO_FILE_base(fp))';
++	$opt{stdio_cnt} = 'PERLIO_FILE_cnt(fp)';
++	$opt{stdio_ptr} = 'PERLIO_FILE_ptr(fp)';
++	$opt{i_stdbool} = 'define';
++    }
+     $opt{ar} ='xilib';
+ }
+ 
+diff --git a/win32/makefile.mk b/win32/makefile.mk
+index c74b5bb..952d58c 100644
+--- a/win32/makefile.mk
++++ b/win32/makefile.mk
+@@ -1,7 +1,8 @@
+ #
+ # Makefile to build perl on Windows using DMAKE.
+ # Supported compilers:
+-#	Microsoft Visual C++ 6.0 or later
++#	Microsoft Visual C++ 6.0 to Visual C++ 2013 (12.0)
++#	Experimental support for Microsoft Visual C++ 2015 (14.0)
+ #	MinGW with gcc-3.4.5 or later
+ #	Windows SDK 64-bit compiler and tools
+ #
+@@ -138,6 +139,15 @@ USE_LARGE_FILES	*= define
+ #CCTYPE		= MSVC120
+ # Visual C++ 2013 Express Edition (aka Visual C++ 12.0) (free version)
+ #CCTYPE		= MSVC120FREE
++#
++# NOTE: Support for Visual C++ 2015 is currently only experimental.
++#       See README.win32 for further details.
++#
++# Visual C++ 2015 (aka Visual C++ 14.0) (full version)
++#CCTYPE		= MSVC140
++# Visual C++ 2015 Express Edition (aka Visual C++ 14.0) (free version)
++#CCTYPE		= MSVC140FREE
++#
+ # MinGW or mingw-w64 with gcc-3.4.5 or later
+ CCTYPE		*= GCC
+ 
+@@ -561,21 +571,43 @@ DEFINES		= -DWIN32 -D_CONSOLE -DNO_STRICT
+ LOCDEFS		= -DPERLDLL -DPERL_CORE
+ CXX_FLAG	= -TP -EHsc
+ 
++# VS2015 (VC14) should use ucrt.lib rather than msvcrt.lib but for now we
++# specify the static libucrt.lib to gain access to pioinfo, which is otherwise
++# now hidden from us.
++.IF "$(CCTYPE)" == "MSVC140" || "$(CCTYPE)" == "MSVC140FREE"
++
++.IF  "$(CFG)" == "DebugFull"
++LIBC		= libucrtd.lib
++.ELSE
++LIBC		= libucrt.lib
++.ENDIF
++
++LIBC_FLAG	=
++
++.ELSE
++
++.IF  "$(CFG)" == "DebugFull"
++LIBC		= msvcrtd.lib
++LIBC_FLAG	= -MDd
++.ELSE
+ LIBC		= msvcrt.lib
++LIBC_FLAG	= -MD
++.ENDIF
++
++.ENDIF
+ 
+ .IF  "$(CFG)" == "Debug"
+-OPTIMIZE	= -Od -MD -Zi -DDEBUGGING
++OPTIMIZE	= -Od $(LIBC_FLAG) -Zi -DDEBUGGING
+ LINK_DBG	= -debug
+ .ELIF  "$(CFG)" == "DebugSymbols"
+-OPTIMIZE	= -Od -MD -Zi
++OPTIMIZE	= -Od $(LIBC_FLAG) -Zi
+ LINK_DBG	= -debug
+ .ELIF  "$(CFG)" == "DebugFull"
+-LIBC		= msvcrtd.lib
+-OPTIMIZE	= -Od -MDd -Zi -D_DEBUG -DDEBUGGING
++OPTIMIZE	= -Od $(LIBC_FLAG) -Zi -D_DEBUG -DDEBUGGING
+ LINK_DBG	= -debug
+ .ELSE
+ # -O1 yields smaller code, which turns out to be faster than -O2 on x86 and x64
+-OPTIMIZE	= -O1 -MD -Zi -DNDEBUG
++OPTIMIZE	= -O1 $(LIBC_FLAG) -Zi -DNDEBUG
+ # we enable debug symbols in release builds also
+ LINK_DBG	= -debug -opt:ref,icf
+ # you may want to enable this if you want COFF symbols in the executables
+@@ -603,6 +635,11 @@ OPTIMIZE	+= -fp:precise
+ DEFINES		+= -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE
+ .ENDIF
+ 
++# Likewise for deprecated Winsock APIs in VC++ 14.0 for now.
++.IF "$(CCTYPE)" == "MSVC140" || "$(CCTYPE)" == "MSVC140FREE"
++DEFINES		+= -D_WINSOCK_DEPRECATED_NO_WARNINGS
++.ENDIF
++
+ # In VS 2005 (VC++ 8.0) Microsoft changes time_t from 32-bit to
+ # 64-bit, even in 32-bit mode.  It also provides the _USE_32BIT_TIME_T
+ # preprocessor option to revert back to the old functionality for
+@@ -623,6 +660,16 @@ LIBBASEFILES	= \
+ 		netapi32.lib uuid.lib ws2_32.lib mpr.lib winmm.lib \
+ 		version.lib odbc32.lib odbccp32.lib comctl32.lib
+ 
++# See note about ucrt.lib/libucrt.lib above (ideally we want msvcrt(d).lib and
++# vcruntime(d).lib here rather than these static libs).
++.IF "$(CCTYPE)" == "MSVC140" || "$(CCTYPE)" == "MSVC140FREE"
++.IF  "$(CFG)" == "DebugFull"
++LIBBASEFILES	+= libcmtd.lib libvcruntimed.lib
++.ELSE
++LIBBASEFILES	+= libcmt.lib libvcruntime.lib
++.ENDIF
++.ENDIF
++
+ # Avoid __intel_new_proc_init link error for libircmt.
+ # libmmd is /MD equivelent, other variants exist.
+ # libmmd is Intel C's math addon funcs to MS CRT, contains long doubles, C99,
+@@ -1074,6 +1121,17 @@ config.w32 : $(CFGSH_TMPL)
+ 	@echo.>>$@
+ 	@echo #ifndef _config_h_footer_>>$@
+ 	@echo #define _config_h_footer_>>$@
++.IF "$(CCTYPE)" == "MSVC140" || "$(CCTYPE)" == "MSVC140FREE"
++	@echo #undef FILE_ptr>>$@
++	@echo #define FILE_ptr(fp) PERLIO_FILE_ptr(fp)>>$@
++	@echo #undef FILE_cnt>>$@
++	@echo #define FILE_cnt(fp) PERLIO_FILE_cnt(fp)>>$@
++	@echo #undef FILE_base>>$@
++	@echo #define FILE_base(fp) PERLIO_FILE_base(fp)>>$@
++	@echo #undef FILE_bufsiz>>$@
++	@echo #define FILE_bufsiz(fp) (PERLIO_FILE_cnt(fp) + PERLIO_FILE_ptr(fp) - PERLIO_FILE_base(fp))>>$@
++	@echo #define I_STDBOOL>>$@
++.ENDIF
+ 	@echo #undef Off_t>>$@
+ 	@echo #undef LSEEKSIZE>>$@
+ 	@echo #undef Off_t_size>>$@
+diff --git a/win32/perlhost.h b/win32/perlhost.h
+index 7a0c3b3..b0b3692 100644
+--- a/win32/perlhost.h
++++ b/win32/perlhost.h
+@@ -836,15 +836,15 @@ PerlStdIOFdupopen(struct IPerlStdIO* piPerl, FILE* pf)
+     int fileno = win32_dup(win32_fileno(pf));
+ 
+     /* open the file in the same mode */
+-    if((pf)->_flag & _IOREAD) {
++    if (PERLIO_FILE_flag(pf) & PERLIO_FILE_flag_RD) {
+ 	mode[0] = 'r';
+ 	mode[1] = 0;
+     }
+-    else if((pf)->_flag & _IOWRT) {
++    else if (PERLIO_FILE_flag(pf) & PERLIO_FILE_flag_WR) {
+ 	mode[0] = 'a';
+ 	mode[1] = 0;
+     }
+-    else if((pf)->_flag & _IORW) {
++    else if (PERLIO_FILE_flag(pf) & PERLIO_FILE_flag_RW) {
+ 	mode[0] = 'r';
+ 	mode[1] = '+';
+ 	mode[2] = 0;
+diff --git a/win32/win32.c b/win32/win32.c
+index 2b883a2..5b728b1 100644
+--- a/win32/win32.c
++++ b/win32/win32.c
+@@ -4130,15 +4130,15 @@ win32_fdupopen(FILE *pf)
+     int fileno = win32_dup(win32_fileno(pf));
+ 
+     /* open the file in the same mode */
+-    if((pf)->_flag & _IOREAD) {
++    if (PERLIO_FILE_flag(pf) & PERLIO_FILE_flag_RD) {
+ 	mode[0] = 'r';
+ 	mode[1] = 0;
+     }
+-    else if((pf)->_flag & _IOWRT) {
++    else if (PERLIO_FILE_flag(pf) & PERLIO_FILE_flag_WR) {
+ 	mode[0] = 'a';
+ 	mode[1] = 0;
+     }
+-    else if((pf)->_flag & _IORW) {
++    else if (PERLIO_FILE_flag(pf) & PERLIO_FILE_flag_RW) {
+ 	mode[0] = 'r';
+ 	mode[1] = '+';
+ 	mode[2] = 0;
+@@ -4432,8 +4432,8 @@ Perl_win32_init(int *argcp, char ***argvp)
+ 
+ #ifdef WIN32_DYN_IOINFO_SIZE
+     {
+-	Size_t ioinfo_size = _msize((void*)__pioinfo[0]);;
+-	if((SSize_t)ioinfo_size <= 0) { /* -1 is err */
++	Size_t ioinfo_size = _msize((void*)__pioinfo[0]);
++	if ((SSize_t)ioinfo_size <= 0) { /* -1 is err */
+ 	    fprintf(stderr, "panic: invalid size for ioinfo\n"); /* no interp */
+ 	    exit(1);
+ 	}
+@@ -4442,6 +4442,24 @@ Perl_win32_init(int *argcp, char ***argvp)
+     }
+ #endif
+ 
++#if defined(DEBUGGING) && defined(_MSC_VER) && _MSC_VER >= 1900
++    {
++	/* Sanity check on the size of our __crt_stdio_stream_data struct. */
++	FILE* f = fopen(w32_module_name, "r");
++	if (f != NULL) {
++	    __crt_stdio_stream_data* data = (__crt_stdio_stream_data*)f;
++	    Size_t data_size = _msize((void*)data);
++	    if ((SSize_t)data_size <= 0 || /* -1 is err */
++		data_size != sizeof(__crt_stdio_stream_data)) {
++		/* no interp */
++		fprintf(stderr, "panic: invalid __crt_stdio_stream_data size\n");
++		exit(1);
++	    }
++	    fclose(f);
++	}
++    }
++#endif
++
+     ansify_path();
+ }
+ 
+diff --git a/win32/win32.h b/win32/win32.h
+index 3b35b6c..16ae926 100644
+--- a/win32/win32.h
++++ b/win32/win32.h
+@@ -282,6 +282,54 @@ extern const __declspec(selectany) union { unsigned __int64 __q; double __d; }
+ __PL_nan_u = { 0x7FF8000000000000UI64 };
+ #  define NV_NAN ((NV)__PL_nan_u.__d)
+ 
++#if defined(_MSC_VER) && _MSC_VER >= 1900
++
++/* No longer declared in stdio.h */
++char *gets(char* buffer);
++
++#define tzname _tzname
++
++/* From corecrt_internal_stdio.h: */
++typedef struct
++{
++    union
++    {
++        FILE  _public_file;
++        char* _ptr;
++    };
++
++    char*            _base;
++    int              _cnt;
++    long             _flags;
++    long             _file;
++    int              _charbuf;
++    int              _bufsiz;
++    char*            _tmpfname;
++    CRITICAL_SECTION _lock;
++} __crt_stdio_stream_data;
++
++#define PERLIO_FILE_flag_RD 0x0001 /* _IOREAD   */
++#define PERLIO_FILE_flag_WR 0x0002 /* _IOWRITE  */
++#define PERLIO_FILE_flag_RW 0x0004 /* _IOUPDATE */
++#define PERLIO_FILE_ptr(f)  (((__crt_stdio_stream_data*)(f))->_ptr)
++#define PERLIO_FILE_base(f) (((__crt_stdio_stream_data*)(f))->_base)
++#define PERLIO_FILE_cnt(f)  (((__crt_stdio_stream_data*)(f))->_cnt)
++#define PERLIO_FILE_flag(f) ((int)(((__crt_stdio_stream_data*)(f))->_flags))
++#define PERLIO_FILE_file(f) ((int)(((__crt_stdio_stream_data*)(f))->_file))
++
++#else
++
++#define PERLIO_FILE_flag_RD _IOREAD /* 0x001 */
++#define PERLIO_FILE_flag_WR _IOWRT  /* 0x002 */
++#define PERLIO_FILE_flag_RW _IORW   /* 0x080 */
++#define PERLIO_FILE_ptr(f)  ((f)->_ptr)
++#define PERLIO_FILE_base(f) ((f)->_base)
++#define PERLIO_FILE_cnt(f)  ((f)->_cnt)
++#define PERLIO_FILE_flag(f) ((f)->_flag)
++#define PERLIO_FILE_file(f) ((f)->_file)
++
++#endif
++
+ #endif /* _MSC_VER */
+ 
+ #ifdef __MINGW32__		/* Minimal Gnu-Win32 */
+@@ -543,23 +591,38 @@ void win32_wait_for_children(pTHX);
+ #endif
+ 
+ 
+-/* VV 2005 has multiple ioinfo struct definitions through VC 2005's release life
++/* VC 2005 has multiple ioinfo struct definitions through VC 2005's release life
+  * VC 2008-2012 have been stable but do not assume future VCs will have the
+  * same ioinfo struct, just because past struct stability. If research is done
+  * on the CRTs of future VS, the version check can be bumped up so the newer
+  * VC uses a fixed ioinfo size.
+  */
+ #if ! (_MSC_VER < 1400 || (_MSC_VER >= 1500 && _MSC_VER <= 1700) \
+-  || defined(__MINGW32__))
++  || _MSC_VER >= 1900 || defined(__MINGW32__))
+ /* size of ioinfo struct is determined at runtime */
+ #  define WIN32_DYN_IOINFO_SIZE
+ #endif
+ 
+ #ifndef WIN32_DYN_IOINFO_SIZE
++
++#if _MSC_VER >= 1900
++/* enum class __crt_lowio_text_mode : char
++{
++    ansi    = 0, // Regular text
++    utf8    = 1, // UTF-8 encoded
++    utf16le = 2, // UTF-16LE encoded
++}; */
++
++typedef char __crt_lowio_text_mode;
++
++typedef char __crt_lowio_pipe_lookahead[3];
++#endif
++
+ /*
+  * Control structure for lowio file handles
+  */
+ typedef struct {
++#if defined(__MINGW32__) || _MSC_VER < 1900
+     intptr_t osfhnd;/* underlying OS file HANDLE */
+     char osfile;    /* attributes of file (e.g., open in text mode?) */
+     char pipech;    /* one char buffer for handles opened on pipes */
+@@ -585,6 +648,21 @@ typedef struct {
+     BOOL dbcsBufferUsed;   /* Bool for the lead byte buffer is used or not */
+ #    endif
+ #  endif
++
++#else /* >= VC 2015 definition */
++
++    CRITICAL_SECTION           lock;
++    intptr_t                   osfhnd;          // underlying OS file HANDLE
++    __int64                    startpos;        // File position that matches buffer start
++    unsigned char              osfile;          // Attributes of file (e.g., open in text mode?)
++    __crt_lowio_text_mode      textmode;
++    __crt_lowio_pipe_lookahead _pipe_lookahead;
++
++    unsigned char unicode          : 1; // Was the file opened as unicode?
++    unsigned char utf8translations : 1; // Buffer contains translations other than CRLF
++    unsigned char dbcsBufferUsed   : 1; // Is the dbcsBuffer in use?
++    char    dbcsBuffer;           // Buffer for the lead byte of DBCS when converting from DBCS to Unicode
++#endif
+ } ioinfo;
+ #else
+ typedef intptr_t ioinfo;
+@@ -599,7 +677,12 @@ EXTERN_C _CRTIMP ioinfo* __pioinfo[];
+  * Definition of IOINFO_L2E, the log base 2 of the number of elements in each
+  * array of ioinfo structs.
+  */
+-#define IOINFO_L2E	    5
++
++#if _MSC_VER >= 1900
++#  define IOINFO_L2E	    6
++#else
++#  define IOINFO_L2E	    5
++#endif
+ 
+ /*
+  * Definition of IOINFO_ARRAY_ELTS, the number of elements in ioinfo array
+-- 
+1.9.5.msysgit.1

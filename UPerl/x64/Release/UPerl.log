@@ -1,0 +1,10 @@
+﻿     Creating library C:\Projects\UPerl\x64\Release\UPerl64.lib and object C:\Projects\UPerl\x64\Release\UPerl64.exp
+  Generating code
+  Finished generating code
+perl522s.lib(ma_05_t.obj) : warning LNK4255: library contain multiple objects of the same name; linking object as if no debug info
+perl522s.lib(eu_01_t.obj) : warning LNK4255: library contain multiple objects of the same name; linking object as if no debug info
+perl522s.lib(cp_00_t.obj) : warning LNK4255: library contain multiple objects of the same name; linking object as if no debug info
+perl522s.lib(cp_00_t.obj) : warning LNK4255: library contain multiple objects of the same name; linking object as if no debug info
+perl522s.lib(eu_01_t.obj) : warning LNK4255: library contain multiple objects of the same name; linking object as if no debug info
+  UPerl.vcxproj -> C:\Projects\UPerl\x64\Release\UPerl64.dll
+  UPerl.vcxproj -> C:\Projects\UPerl\x64\Release\UPerl64.pdb (Full PDB)

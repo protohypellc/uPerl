@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B2147DA2-5D10-44DB-BA2D-0AFD5AD98A87}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="av.c" />
+    <ClCompile Include="caretx.c" />
+    <ClCompile Include="cpan\compress-raw-bzip2\bzip2-src\blocksort.c" />
+    <ClCompile Include="cpan\compress-raw-bzip2\bzip2-src\bzlib.c" />
+    <ClCompile Include="cpan\compress-raw-bzip2\bzip2-src\compress.c" />
+    <ClCompile Include="cpan\compress-raw-bzip2\bzip2-src\crctable.c" />
+    <ClCompile Include="cpan\compress-raw-bzip2\bzip2-src\decompress.c" />
+    <ClCompile Include="cpan\compress-raw-bzip2\bzip2-src\huffman.c" />
+    <ClCompile Include="cpan\compress-raw-bzip2\bzip2-src\randtable.c" />
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\adler32.c" />
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\compress.c" />
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\crc32.c" />
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\deflate.c" />
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\infback.c" />
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\inffast.c" />
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\inflate.c" />
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\inftrees.c" />
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\trees.c" />
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\uncompr.c" />
+    <ClCompile Include="cpan\compress-raw-zlib\zlib-src\zutil.c" />
+    <ClCompile Include="cpan\db_file\version.c" />
+    <ClCompile Include="cpan\devel-ppport\module2.c" />
+    <ClCompile Include="cpan\devel-ppport\module3.c" />
+    <ClCompile Include="cpan\digest-sha\src\sdf.c" />
+    <ClCompile Include="cpan\digest-sha\src\sha.c" />
+    <ClCompile Include="cpan\digest-sha\src\sha64bit.c" />
+    <ClCompile Include="cpan\encode\encengine.c" />
+    <ClCompile Include="cygwin\cygwin.c" />
+    <ClCompile Include="deb.c" />
+    <ClCompile Include="dist\io\poll.c" />
+    <ClCompile Include="djgpp\djgpp.c" />
+    <ClCompile Include="doio.c" />
+    <ClCompile Include="doop.c" />
+    <ClCompile Include="dquote_static.c" />
+    <ClCompile Include="dump.c" />
+    <ClCompile Include="ext\dynaloader\dlutils.c" />
+    <ClCompile Include="ext\file-glob\bsd_glob.c" />
+    <ClCompile Include="ext\sdbm_file\dba.c" />
+    <ClCompile Include="ext\sdbm_file\dbd.c" />
+    <ClCompile Include="ext\sdbm_file\dbe.c" />
+    <ClCompile Include="ext\sdbm_file\dbu.c" />
+    <ClCompile Include="ext\sdbm_file\hash.c" />
+    <ClCompile Include="ext\sdbm_file\pair.c" />
+    <ClCompile Include="ext\sdbm_file\sdbm.c" />
+    <ClCompile Include="ext\sdbm_file\util.c" />
+    <ClCompile Include="ext\win32core\Win32CORE.c" />
+    <ClCompile Include="ext\xs-apitest\core.c" />
+    <ClCompile Include="ext\xs-apitest\exception.c" />
+    <ClCompile Include="ext\xs-apitest\notcore.c" />
+    <ClCompile Include="ext\xs-typemap\stdio.c" />
+    <ClCompile Include="generate_uudmap.c" />
+    <ClCompile Include="globals.c" />
+    <ClCompile Include="gv.c" />
+    <ClCompile Include="hints\t001.c" />
+    <ClCompile Include="hv.c" />
+    <ClCompile Include="inline_invlist.c" />
+    <ClCompile Include="keywords.c" />
+    <ClCompile Include="locale.c" />
+    <ClCompile Include="malloc.c" />
+    <ClCompile Include="mathoms.c" />
+    <ClCompile Include="mg.c" />
+    <ClCompile Include="mg_names.c" />
+    <ClCompile Include="miniperlmain.c" />
+    <ClCompile Include="mro_core.c" />
+    <ClCompile Include="netware\CLIBstuf.c" />
+    <ClCompile Include="netware\interface.c" />
+    <ClCompile Include="netware\interface.cpp" />
+    <ClCompile Include="netware\Main.c" />
+    <ClCompile Include="netware\nw5.c" />
+    <ClCompile Include="netware\nw5sck.c" />
+    <ClCompile Include="netware\nw5thread.c" />
+    <ClCompile Include="netware\nwhashcls.cpp" />
+    <ClCompile Include="netware\Nwmain.c" />
+    <ClCompile Include="netware\nwperlsys.c" />
+    <ClCompile Include="netware\Nwpipe.c" />
+    <ClCompile Include="netware\nwplglob.c" />
+    <ClCompile Include="netware\NWTInfo.c" />
+    <ClCompile Include="netware\NWUtil.c" />
+    <ClCompile Include="netware\perllib.cpp" />
+    <ClCompile Include="netware\sv_nw.c" />
+    <ClCompile Include="netware\testnlm\echo\echo.c" />
+    <ClCompile Include="netware\testnlm\type\type.c" />
+    <ClCompile Include="numeric.c" />
+    <ClCompile Include="op.c" />
+    <ClCompile Include="os2\dl_os2.c" />
+    <ClCompile Include="os2\os2.c" />
+    <ClCompile Include="os2\perlrexx.c" />
+    <ClCompile Include="overload.c" />
+    <ClCompile Include="packsizetables.c" />
+    <ClCompile Include="pad.c" />
+    <ClCompile Include="perl.c" />
+    <ClCompile Include="perlapi.c" />
+    <ClCompile Include="perlio.c" />
+    <ClCompile Include="perly.c" />
+    <ClCompile Include="plan9\plan9.c" />
+    <ClCompile Include="porting\timecheck.c" />
+    <ClCompile Include="porting\timecheck2.c" />
+    <ClCompile Include="pp.c" />
+    <ClCompile Include="pp_ctl.c" />
+    <ClCompile Include="pp_hot.c" />
+    <ClCompile Include="pp_pack.c" />
+    <ClCompile Include="pp_sort.c" />
+    <ClCompile Include="pp_sys.c" />
+    <ClCompile Include="qnx\qnx.c" />
+    <ClCompile Include="reentr.c" />
+    <ClCompile Include="regcomp.c" />
+    <ClCompile Include="regexec.c" />
+    <ClCompile Include="run.c" />
+    <ClCompile Include="scope.c" />
+    <ClCompile Include="sv.c" />
+    <ClCompile Include="symbian\PerlApp.cpp" />
+    <ClCompile Include="symbian\PerlBase.cpp" />
+    <ClCompile Include="symbian\PerlRecog.cpp" />
+    <ClCompile Include="symbian\PerlUi.cpp" />
+    <ClCompile Include="symbian\PerlUtil.cpp" />
+    <ClCompile Include="symbian\symbian_dll.cpp" />
+    <ClCompile Include="symbian\symbian_stubs.c" />
+    <ClCompile Include="symbian\symbian_utils.cpp" />
+    <ClCompile Include="taint.c" />
+    <ClCompile Include="time64.c" />
+    <ClCompile Include="toke.c" />
+    <ClCompile Include="universal.c" />
+    <ClCompile Include="utf8.c" />
+    <ClCompile Include="util.c" />
+    <ClCompile Include="vms\munchconfig.c" />
+    <ClCompile Include="vms\vms.c" />
+    <ClCompile Include="vos\vos.c" />
+    <ClCompile Include="vutil.c" />
+    <ClCompile Include="win32\fcrypt.c" />
+    <ClCompile Include="win32\perlglob.c" />
+    <ClCompile Include="win32\perllib.c" />
+    <ClCompile Include="win32\perlmaince.c" />
+    <ClCompile Include="win32\runperl.c" />
+    <ClCompile Include="win32\win32.c" />
+    <ClCompile Include="win32\win32ceio.c" />
+    <ClCompile Include="win32\win32io.c" />
+    <ClCompile Include="win32\win32sck.c" />
+    <ClCompile Include="win32\win32thread.c" />
+    <ClCompile Include="win32\wince.c" />
+    <ClCompile Include="win32\wincesck.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="av.h" />
+    <ClInclude Include="charclass_invlists.h" />
+    <ClInclude Include="cop.h" />
+    <ClInclude Include="cpan\compress-raw-bzip2\bzip2-src\bzlib.h" />
+    <ClInclude Include="cpan\compress-raw-bzip2\bzip2-src\bzlib_private.h" />
+    <ClInclude Include="cpan\compress-raw-bzip2\fallback\constants.h" />
+    <ClInclude Include="cpan\compress-raw-zlib\fallback\constants.h" />
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\crc32.h" />
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\deflate.h" />
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\inffast.h" />
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\inffixed.h" />
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\inflate.h" />
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\inftrees.h" />
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\trees.h" />
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\zconf.h" />
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\zlib.h" />
+    <ClInclude Include="cpan\compress-raw-zlib\zlib-src\zutil.h" />
+    <ClInclude Include="cpan\digest-sha\src\sha.h" />
+    <ClInclude Include="cpan\digest-sha\src\sha64bit.h" />
+    <ClInclude Include="cpan\encode\encode\encode.h" />
+    <ClInclude Include="cpan\scalar-list-utils\multicall.h" />
+    <ClInclude Include="cpan\sys-syslog\fallback\syslog.h" />
+    <ClInclude Include="cpan\win32api-file\buffers.h" />
+    <ClInclude Include="cpan\win32api-file\cFile.h" />
+    <ClInclude Include="cpan\win32api-file\const2perl.h" />
+    <ClInclude Include="cv.h" />
+    <ClInclude Include="dist\io\poll.h" />
+    <ClInclude Include="djgpp\djgpp.h" />
+    <ClInclude Include="dosish.h" />
+    <ClInclude Include="ebcdic_tables.h" />
+    <ClInclude Include="embed.h" />
+    <ClInclude Include="embedvar.h" />
+    <ClInclude Include="EXTERN.h" />
+    <ClInclude Include="ext\arybase\ptable.h" />
+    <ClInclude Include="ext\file-glob\bsd_glob.h" />
+    <ClInclude Include="ext\re\re_comp.h" />
+    <ClInclude Include="ext\re\re_top.h" />
+    <ClInclude Include="ext\sdbm_file\pair.h" />
+    <ClInclude Include="ext\sdbm_file\sdbm.h" />
+    <ClInclude Include="ext\sdbm_file\tune.h" />
+    <ClInclude Include="fakesdio.h" />
+    <ClInclude Include="feature.h" />
+    <ClInclude Include="form.h" />
+    <ClInclude Include="gv.h" />
+    <ClInclude Include="haiku\haikuish.h" />
+    <ClInclude Include="handy.h" />
+    <ClInclude Include="hv.h" />
+    <ClInclude Include="hv_func.h" />
+    <ClInclude Include="inline.h" />
+    <ClInclude Include="INTERN.h" />
+    <ClInclude Include="intrpvar.h" />
+    <ClInclude Include="iperlsys.h" />
+    <ClInclude Include="keywords.h" />
+    <ClInclude Include="l1_char_class_tab.h" />
+    <ClInclude Include="malloc_ctl.h" />
+    <ClInclude Include="metaconfig.h" />
+    <ClInclude Include="mg.h" />
+    <ClInclude Include="mg_raw.h" />
+    <ClInclude Include="mg_vtable.h" />
+    <ClInclude Include="mydtrace.h" />
+    <ClInclude Include="netware\CLIBsdio.h" />
+    <ClInclude Include="netware\CLIBstr.h" />
+    <ClInclude Include="netware\CLIBstuf.h" />
+    <ClInclude Include="netware\deb.h" />
+    <ClInclude Include="netware\intdef.h" />
+    <ClInclude Include="netware\interface.h" />
+    <ClInclude Include="netware\iperlhost.h" />
+    <ClInclude Include="netware\netware.h" />
+    <ClInclude Include="netware\nw5iop.h" />
+    <ClInclude Include="netware\nw5sck.h" />
+    <ClInclude Include="netware\nw5thread.h" />
+    <ClInclude Include="netware\nwhashcls.h" />
+    <ClInclude Include="netware\nwperlhost.h" />
+    <ClInclude Include="netware\nwperlsys.h" />
+    <ClInclude Include="netware\nwpipe.h" />
+    <ClInclude Include="netware\nwplglob.h" />
+    <ClInclude Include="netware\nwstdio.h" />
+    <ClInclude Include="netware\nwtinfo.h" />
+    <ClInclude Include="netware\nwutil.h" />
+    <ClInclude Include="netware\nwvmem.h" />
+    <ClInclude Include="netware\win32ish.h" />
+    <ClInclude Include="nostdio.h" />
+    <ClInclude Include="op.h" />
+    <ClInclude Include="opcode.h" />
+    <ClInclude Include="opnames.h" />
+    <ClInclude Include="op_reg_common.h" />
+    <ClInclude Include="os2\dlfcn.h" />
+    <ClInclude Include="os2\os2ish.h" />
+    <ClInclude Include="os2\os2thread.h" />
+    <ClInclude Include="os2\os2\os2-extattr\myea.h" />
+    <ClInclude Include="overload.h" />
+    <ClInclude Include="pad.h" />
+    <ClInclude Include="parser.h" />
+    <ClInclude Include="patchlevel.h" />
+    <ClInclude Include="perl.h" />
+    <ClInclude Include="perlapi.h" />
+    <ClInclude Include="perlio.h" />
+    <ClInclude Include="perliol.h" />
+    <ClInclude Include="perlsdio.h" />
+    <ClInclude Include="perlvars.h" />
+    <ClInclude Include="perly.h" />
+    <ClInclude Include="plan9\arpa\inet.h" />
+    <ClInclude Include="plan9\plan9ish.h" />
+    <ClInclude Include="pp.h" />
+    <ClInclude Include="pp_proto.h" />
+    <ClInclude Include="proto.h" />
+    <ClInclude Include="reentr.h" />
+    <ClInclude Include="regcharclass.h" />
+    <ClInclude Include="regcomp.h" />
+    <ClInclude Include="regexp.h" />
+    <ClInclude Include="regnodes.h" />
+    <ClInclude Include="scope.h" />
+    <ClInclude Include="sv.h" />
+    <ClInclude Include="symbian\PerlApp.h" />
+    <ClInclude Include="symbian\PerlBase.h" />
+    <ClInclude Include="symbian\PerlUi.h" />
+    <ClInclude Include="symbian\PerlUtil.h" />
+    <ClInclude Include="symbian\symbianish.h" />
+    <ClInclude Include="symbian\symbian_proto.h" />
+    <ClInclude Include="symbian\symbian_stubs.h" />
+    <ClInclude Include="thread.h" />
+    <ClInclude Include="time64.h" />
+    <ClInclude Include="time64_config.h" />
+    <ClInclude Include="t\lib\h2ph.h" />
+    <ClInclude Include="uconfig.h" />
+    <ClInclude Include="unicode_constants.h" />
+    <ClInclude Include="unixish.h" />
+    <ClInclude Include="utf8.h" />
+    <ClInclude Include="utfebcdic.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="vms\vmsish.h" />
+    <ClInclude Include="vos\vosish.h" />
+    <ClInclude Include="vutil.h" />
+    <ClInclude Include="warnings.h" />
+    <ClInclude Include="win32\config.h" />
+    <ClInclude Include="win32\include\arpa\inet.h" />
+    <ClInclude Include="win32\include\dirent.h" />
+    <ClInclude Include="win32\include\netdb.h" />
+    <ClInclude Include="win32\include\sys\errno2.h" />
+    <ClInclude Include="win32\include\sys\socket.h" />
+    <ClInclude Include="win32\perlhost.h" />
+    <ClInclude Include="win32\vdir.h" />
+    <ClInclude Include="win32\vmem.h" />
+    <ClInclude Include="win32\win32.h" />
+    <ClInclude Include="win32\win32iop-o.h" />
+    <ClInclude Include="win32\win32iop.h" />
+    <ClInclude Include="win32\win32thread.h" />
+    <ClInclude Include="win32\wince.h" />
+    <ClInclude Include="XSUB.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpan\sys-syslog\fallback\const-c.inc" />
+    <None Include="cpan\sys-syslog\fallback\const-xs.inc" />
+    <None Include="cpan\time-hires\fallback\const-c.inc" />
+    <None Include="cpan\time-hires\fallback\const-xs.inc" />
+    <None Include="cpan\win32\longpath.inc" />
+    <None Include="dist\bignum\t\infnan.inc" />
+    <None Include="dist\math-bigint\t\alias.inc" />
+    <None Include="dist\math-bigint\t\bigfltpm.inc" />
+    <None Include="dist\math-bigint\t\bigintpm.inc" />
+    <None Include="dist\math-bigint\t\mbimbf.inc" />
+    <None Include="dist\math-bigint\t\upgrade.inc" />
+    <None Include="dist\math-bigrat\t\bigfltpm.inc" />
+    <None Include="dist\math-bigrat\t\bigratpm.inc" />
+    <None Include="ext\xs-apitest\core_or_not.inc" />
+    <None Include="vxs.inc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="plan9\setup.rc" />
+    <ResourceCompile Include="win32\perl.rc" />
+    <ResourceCompile Include="win32\perlexe.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

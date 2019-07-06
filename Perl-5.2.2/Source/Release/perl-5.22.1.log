@@ -1,0 +1,410 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of compress.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are cpan\compress-raw-bzip2\bzip2-src\compress.c, cpan\compress-raw-zlib\zlib-src\compress.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of util.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ext\sdbm_file\util.c, util.c.
+  av.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  caretx.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  blocksort.c
+  bzlib.c
+cpan\compress-raw-bzip2\bzip2-src\bzlib.c(1430): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+cpan\compress-raw-bzip2\bzip2-src\bzlib.c(1431): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+cpan\compress-raw-bzip2\bzip2-src\bzlib.c(1436): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _setmode. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(528): note: see declaration of 'setmode'
+cpan\compress-raw-bzip2\bzip2-src\bzlib.c(1438): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+cpan\compress-raw-bzip2\bzip2-src\bzlib.c(1444): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fdopen. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2448): note: see declaration of 'fdopen'
+  compress.c
+  crctable.c
+  decompress.c
+  huffman.c
+  randtable.c
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  infback.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  trees.c
+  uncompr.c
+  zutil.c
+cpan\compress-raw-zlib\zlib-src\zutil.c(10): fatal error C1083: Cannot open include file: 'gzguts.h': No such file or directory
+  Generating Code...
+  Compiling...
+  version.c
+cpan\db_file\version.c(26): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  module2.c
+cpan\devel-ppport\module2.c(16): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  module3.c
+cpan\devel-ppport\module3.c(16): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  sdf.c
+cpan\digest-sha\src\sdf.c(3): error C2143: syntax error: missing '{' before '*'
+cpan\digest-sha\src\sdf.c(5): error C2061: syntax error: identifier 'HV'
+cpan\digest-sha\src\sdf.c(5): error C2059: syntax error: ';'
+cpan\digest-sha\src\sdf.c(9): error C2449: found '{' at file scope (missing function header?)
+cpan\digest-sha\src\sdf.c(68): error C2059: syntax error: '}'
+cpan\digest-sha\src\sdf.c(73): error C2449: found '{' at file scope (missing function header?)
+cpan\digest-sha\src\sdf.c(99): error C2059: syntax error: '}'
+  sha.c
+cpan\digest-sha\src\sha.c(297): warning C4013: 'Zero' undefined; assuming extern returning int
+cpan\digest-sha\src\sha.c(297): error C2275: 'SHA': illegal use of this type as an expression
+  c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\cpan\digest-sha\src\sha.h(151): note: see declaration of 'SHA'
+cpan\digest-sha\src\sha.c(297): warning C4013: 'Copy' undefined; assuming extern returning int
+cpan\digest-sha\src\sha.c(297): error C2059: syntax error: 'type'
+cpan\digest-sha\src\sha.c(298): error C2275: 'SHA': illegal use of this type as an expression
+  c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\cpan\digest-sha\src\sha.h(151): note: see declaration of 'SHA'
+cpan\digest-sha\src\sha.c(298): error C2059: syntax error: 'type'
+cpan\digest-sha\src\sha.c(299): error C2275: 'SHA': illegal use of this type as an expression
+  c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\cpan\digest-sha\src\sha.h(151): note: see declaration of 'SHA'
+cpan\digest-sha\src\sha.c(299): error C2059: syntax error: 'type'
+cpan\digest-sha\src\sha.c(300): error C2275: 'SHA': illegal use of this type as an expression
+  c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\cpan\digest-sha\src\sha.h(151): note: see declaration of 'SHA'
+cpan\digest-sha\src\sha.c(300): error C2059: syntax error: 'type'
+cpan\digest-sha\src\sha.c(301): error C2275: 'SHA': illegal use of this type as an expression
+  c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\cpan\digest-sha\src\sha.h(151): note: see declaration of 'SHA'
+cpan\digest-sha\src\sha.c(301): error C2059: syntax error: 'type'
+cpan\digest-sha\src\sha.c(302): error C2275: 'SHA': illegal use of this type as an expression
+  c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\cpan\digest-sha\src\sha.h(151): note: see declaration of 'SHA'
+cpan\digest-sha\src\sha.c(302): error C2059: syntax error: 'type'
+cpan\digest-sha\src\sha.c(303): error C2275: 'SHA': illegal use of this type as an expression
+  c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\cpan\digest-sha\src\sha.h(151): note: see declaration of 'SHA'
+cpan\digest-sha\src\sha.c(303): error C2059: syntax error: 'type'
+cpan\digest-sha\src\sha.c(331): error C2059: syntax error: 'type'
+cpan\digest-sha\src\sha.c(347): error C2059: syntax error: 'type'
+cpan\digest-sha\src\sha.c(354): error C2059: syntax error: 'type'
+cpan\digest-sha\src\sha.c(455): error C2059: syntax error: 'type'
+cpan\digest-sha\src\sha.c(476): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+cpan\digest-sha\src\sha.c(479): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+cpan\digest-sha\src\sha.c(489): error C2275: 'HMAC': illegal use of this type as an expression
+  c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\cpan\digest-sha\src\sha.h(158): note: see declaration of 'HMAC'
+cpan\digest-sha\src\sha.c(495): error C2059: syntax error: 'type'
+cpan\digest-sha\src\sha.c(501): error C2059: syntax error: 'type'
+cpan\digest-sha\src\sha.c(510): error C2059: syntax error: 'type'
+  sha64bit.c
+  encengine.c
+cpan\encode\encengine.c(90): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  cygwin.c
+cygwin\cygwin.c(6): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  deb.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  poll.c
+dist\io\poll.c(13): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  djgpp.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\djgpp\djgpp.h(4): fatal error C1083: Cannot open include file: 'libc/stubs.h': No such file or directory
+  doio.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  doop.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  dquote_static.c
+dquote_static.c(17): error C2061: syntax error: identifier 'I32'
+dquote_static.c(17): error C2059: syntax error: ';'
+dquote_static.c(20): error C2065: 'PERL_ARGS_ASSERT_REGCURLY': undeclared identifier
+dquote_static.c(23): error C2065: 'FALSE': undeclared identifier
+dquote_static.c(24): warning C4013: 'isDIGIT' undefined; assuming extern returning int
+dquote_static.c(25): error C2065: 'FALSE': undeclared identifier
+dquote_static.c(43): error C2054: expected '(' to follow 'STATIC'
+dquote_static.c(43): error C2143: syntax error: missing ')' before 'const'
+dquote_static.c(43): error C2085: 'S_grok_bslash_c': not in formal parameter list
+dquote_static.c(43): error C2143: syntax error: missing ';' before 'const'
+dquote_static.c(43): error C2059: syntax error: ')'
+dquote_static.c(82): error C2061: syntax error: identifier 'bool'
+dquote_static.c(82): error C2059: syntax error: ';'
+dquote_static.c(83): error C2143: syntax error: missing ')' before 'type'
+dquote_static.c(83): error C2085: 's': not in formal parameter list
+dquote_static.c(83): error C2085: 'UV': not in formal parameter list
+dquote_static.c(83): error C2143: syntax error: missing ';' before '*'
+dquote_static.c(86): error C2059: syntax error: ')'
+dquote_static.c(193): error C2061: syntax error: identifier 'bool'
+dquote_static.c(193): error C2059: syntax error: ';'
+dquote_static.c(194): error C2143: syntax error: missing ')' before 'type'
+dquote_static.c(194): error C2085: 's': not in formal parameter list
+dquote_static.c(194): error C2085: 'UV': not in formal parameter list
+dquote_static.c(194): error C2143: syntax error: missing ';' before '*'
+dquote_static.c(197): error C2059: syntax error: ')'
+dquote_static.c(317): error C2054: expected '(' to follow 'STATIC'
+dquote_static.c(319): error C2143: syntax error: missing ')' before 'const'
+dquote_static.c(319): error C2085: 'S_form_short_octal_warning': not in formal parameter list
+dquote_static.c(319): error C2143: syntax error: missing ';' before 'const'
+dquote_static.c(323): error C2059: syntax error: ')'
+  dump.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  dlutils.c
+ext\dynaloader\dlutils.c(14): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  bsd_glob.c
+ext\file-glob\bsd_glob.c(68): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  dba.c
+ext\sdbm_file\dba.c(6): fatal error C1083: Cannot open include file: 'sys/file.h': No such file or directory
+  dbd.c
+ext\sdbm_file\dbd.c(6): fatal error C1083: Cannot open include file: 'sys/file.h': No such file or directory
+  dbe.c
+ext\sdbm_file\dbe.c(3): fatal error C1083: Cannot open include file: 'sys/file.h': No such file or directory
+  Generating Code...
+  Compiling...
+  dbu.c
+ext\sdbm_file\dbu.c(2): fatal error C1083: Cannot open include file: 'sys/file.h': No such file or directory
+  hash.c
+ext\sdbm_file\hash.c(10): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  pair.c
+ext\sdbm_file\pair.c(10): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  sdbm.c
+ext\sdbm_file\sdbm.c(10): fatal error C1083: Cannot open include file: 'INTERN.h': No such file or directory
+  util.c
+ext\sdbm_file\util.c(5): fatal error C1083: Cannot open include file: 'ndbm.h': No such file or directory
+  Win32CORE.c
+ext\win32core\Win32CORE.c(17): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  core.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\ext\xs-apitest\core_or_not.inc(3): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  exception.c
+ext\xs-apitest\exception.c(1): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  notcore.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\ext\xs-apitest\core_or_not.inc(3): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  stdio.c
+ext\xs-typemap\stdio.c(16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  generate_uudmap.c
+generate_uudmap.c(23): fatal error C1083: Cannot open include file: '..\mg_raw.h': No such file or directory
+  globals.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  gv.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  t001.c
+hints\t001.c(24): warning C4101: 'afloat': unreferenced local variable
+  hv.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  inline_invlist.c
+  keywords.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  locale.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  malloc.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  mathoms.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  mg.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  mg_names.c
+mg_names.c(9): error C2449: found '{' at file scope (missing function header?)
+mg_names.c(9): error C2059: syntax error: '}'
+mg_names.c(10): error C2059: syntax error: ','
+mg_names.c(11): error C2059: syntax error: ','
+mg_names.c(12): error C2059: syntax error: ','
+mg_names.c(13): error C2059: syntax error: ','
+mg_names.c(14): error C2059: syntax error: ','
+mg_names.c(15): error C2059: syntax error: ','
+mg_names.c(16): error C2059: syntax error: ','
+mg_names.c(17): error C2059: syntax error: ','
+mg_names.c(18): error C2059: syntax error: ','
+mg_names.c(19): error C2059: syntax error: ','
+mg_names.c(20): error C2059: syntax error: ','
+mg_names.c(21): error C2059: syntax error: ','
+mg_names.c(22): error C2059: syntax error: ','
+mg_names.c(23): error C2059: syntax error: ','
+mg_names.c(24): error C2059: syntax error: ','
+mg_names.c(25): error C2059: syntax error: ','
+mg_names.c(26): error C2059: syntax error: ','
+mg_names.c(27): error C2059: syntax error: ','
+mg_names.c(28): error C2059: syntax error: ','
+mg_names.c(29): error C2059: syntax error: ','
+mg_names.c(30): error C2059: syntax error: ','
+mg_names.c(31): error C2059: syntax error: ','
+mg_names.c(32): error C2059: syntax error: ','
+mg_names.c(33): error C2059: syntax error: ','
+mg_names.c(34): error C2059: syntax error: ','
+mg_names.c(35): error C2059: syntax error: ','
+mg_names.c(36): error C2059: syntax error: ','
+mg_names.c(37): error C2059: syntax error: ','
+mg_names.c(38): error C2059: syntax error: ','
+mg_names.c(39): error C2059: syntax error: ','
+mg_names.c(40): error C2059: syntax error: ','
+mg_names.c(41): error C2059: syntax error: ','
+mg_names.c(42): error C2059: syntax error: ','
+mg_names.c(43): error C2059: syntax error: ','
+mg_names.c(44): error C2059: syntax error: ','
+mg_names.c(45): error C2059: syntax error: ','
+mg_names.c(46): error C2059: syntax error: ','
+mg_names.c(47): error C2059: syntax error: ','
+mg_names.c(48): error C2059: syntax error: ','
+mg_names.c(49): error C2059: syntax error: ','
+mg_names.c(50): error C2059: syntax error: ','
+mg_names.c(51): error C2059: syntax error: ','
+  miniperlmain.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  mro_core.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  CLIBstuf.c
+netware\CLIBstuf.c(28): fatal error C1083: Cannot open include file: 'nwthread.h': No such file or directory
+  interface.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\netware\iperlhost.h(24): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  Main.c
+netware\Main.c(25): fatal error C1083: Cannot open include file: 'nwthread.h': No such file or directory
+  nw5.c
+netware\nw5.c(20): fatal error C1083: Cannot open include file: 'perl.h': No such file or directory
+  nw5sck.c
+netware\nw5sck.c(20): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  nw5thread.c
+netware\nw5thread.c(20): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  Nwmain.c
+netware\Nwmain.c(28): fatal error C1083: Cannot open include file: 'nwadv.h': No such file or directory
+  nwperlsys.c
+netware\nwperlsys.c(19): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  Nwpipe.c
+netware\Nwpipe.c(20): fatal error C1083: Cannot open include file: 'nwadv.h': No such file or directory
+  nwplglob.c
+netware\nwplglob.c(24): fatal error C1083: Cannot open include file: 'nwtypes.h': No such file or directory
+  NWTInfo.c
+netware\NWTInfo.c(29): fatal error C1083: Cannot open include file: 'nwsemaph.h': No such file or directory
+  NWUtil.c
+netware\NWUtil.c(23): fatal error C1083: Cannot open include file: 'nwdsdefs.h': No such file or directory
+  sv_nw.c
+netware\sv_nw.c(1): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  echo.c
+netware\testnlm\echo\echo.c(16): fatal error C1083: Cannot open include file: 'clibstuf.h': No such file or directory
+  type.c
+netware\testnlm\type\type.c(15): fatal error C1083: Cannot open include file: 'nwfattr.h': No such file or directory
+  numeric.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  op.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  dl_os2.c
+os2\dl_os2.c(6): fatal error C1083: Cannot open include file: 'os2.h': No such file or directory
+  os2.c
+os2\os2.c(12): fatal error C1083: Cannot open include file: 'os2.h': No such file or directory
+  perlrexx.c
+os2\perlrexx.c(8): fatal error C1083: Cannot open include file: 'os2.h': No such file or directory
+  overload.c
+overload.c(19): error C2061: syntax error: identifier 'PL_AMG_namelens'
+overload.c(19): error C2059: syntax error: ';'
+overload.c(19): error C2059: syntax error: '['
+overload.c(97): error C2065: 'NofAMmeth': undeclared identifier
+overload.c(97): error C2057: expected constant expression
+overload.c(97): error C2466: cannot allocate an array of constant size 0
+  packsizetables.c
+packsizetables.c(8): error C2059: syntax error: '++'
+packsizetables.c(14): error C2143: syntax error: missing '{' before 'const'
+packsizetables.c(14): error C2061: syntax error: identifier 'packprops'
+packsizetables.c(14): error C2059: syntax error: ';'
+packsizetables.c(14): error C2059: syntax error: '['
+  pad.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  perl.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  perlapi.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  perlio.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  perly.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  plan9.c
+plan9\plan9.c(1): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  timecheck.c
+porting\timecheck.c(9): fatal error C1083: Cannot open include file: 'values.h': No such file or directory
+  timecheck2.c
+porting\timecheck2.c(108): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(495): note: see declaration of 'gmtime'
+porting\timecheck2.c(109): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+porting\timecheck2.c(110): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(495): note: see declaration of 'gmtime'
+porting\timecheck2.c(111): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+  pp.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  pp_ctl.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  pp_hot.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  pp_pack.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  pp_sort.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  pp_sys.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  Generating Code...
+  Compiling...
+  qnx.c
+  reentr.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  regcomp.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  regexec.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  run.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  scope.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  sv.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  symbian_stubs.c
+symbian\symbian_stubs.c(9): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+  taint.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\perl.h(28): fatal error C1083: Cannot open include file: 'config.h': No such file or directory
+  time64.c
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(9): error C2061: syntax error: identifier 'Int64'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(9): error C2059: syntax error: ';'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(10): error C2061: syntax error: identifier 'Time64_T'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(10): error C2059: syntax error: ';'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(11): error C2061: syntax error: identifier 'Year'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(11): error C2059: syntax error: ';'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(21): error C2061: syntax error: identifier 'Year'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(40): error C2059: syntax error: '}'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(52): error C2143: syntax error: missing ')' before '*'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(52): error C2143: syntax error: missing '{' before '*'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(52): error C2059: syntax error: ','
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(52): error C2059: syntax error: ')'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(53): error C2143: syntax error: missing ')' before '*'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(53): error C2143: syntax error: missing '{' before '*'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(53): error C2059: syntax error: ','
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(53): error C2059: syntax error: ')'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(54): error C2061: syntax error: identifier 'S_timegm64'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(54): error C2059: syntax error: ';'
+c:\users\chadsinger\desktop\perlsharp\perl-5.22.1\time64.h(54): error C2059: syntax error: '<parameter-list>'
+time64.c(57): error C2061: syntax error: identifier 'years_in_gregorian_cycle'
+time64.c(57): error C2059: syntax error: ';'
+time64.c(57): error C2513: ' ': no variable declared before '='
+time64.c(125): error C2146: syntax error: missing ')' before identifier 'year'
+time64.c(125): error C2061: syntax error: identifier 'year'
+time64.c(125): error C2059: syntax error: ';'
+time64.c(125): error C2059: syntax error: ')'
+time64.c(126): error C2449: found '{' at file scope (missing function header?)
+time64.c(131): error C2059: syntax error: '}'
+time64.c(206): error C2061: syntax error: identifier 'S_cycle_offset'
+time64.c(206): error C2059: syntax error: ';'
+time64.c(206): error C2146: syntax error: missing ')' before identifier 'year'
+time64.c(206): error C2061: syntax error: identifier 'year'
+time64.c(206): error C2059: syntax error: ')'
+time64.c(207): error C2449: found '{' at file scope (missing function header?)
+time64.c(222): error C2059: syntax error: '}'
+time64.c(271): warning C4013: 'assert' undefined; assuming extern returning int
+time64.c(274): error C2037: left of 'tm_sec' specifies undefined struct/union 'TM64'
+time64.c(275): error C2037: left of 'tm_min' specifies undefined struct/union 'TM64'
+time64.c(276): error C2037: left of 'tm_hour' specifies undefined struct/union 'TM64'
+time64.c(277): error C2037: left of 'tm_mday' specifies undefined struct/union 'TM64'
+time64.c(278): error C2037: left of 'tm_mon' specifies undefined struct/union 'TM64'
+time64.c(279): error C2037: left of 'tm_year' specifies undefined struct/union 'TM64'
+time64.c(279): error C2065: 'Year': undeclared identifier
+time64.c(279): error C2146: syntax error: missing ';' before identifier 'src'
+time64.c(280): error C2037: left of 'tm_wday' specifies undefined struct/union 'TM64'
+time64.c(281): error C2037: left of 'tm_yday' specifies undefined struct/union 'TM64'
+time64.c(282): error C2037: left of 'tm_isdst' specifies undefined struct/union 'TM64'
+time64.c(305): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+time64.c(326): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(495): note: see declaration of 'gmtime'
+time64.c(341): error C2143: syntax error: missing ')' before '*'
+time64.c(341): error C2143: syntax error: missing '{' before '*'
+time64.c(341): error C2059: syntax error: 'type'
+time64.c(341): error C2059: syntax error: ')'
+time64.c(468): error C2143: syntax error: missing ')' before '*'
+time64.c(468): error C2143: syntax error: missing '{' before '*'
+time64.c(468): error C2365: 'time': redefinition; previous definition was 'function'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(531): note: see declaration of 'time'
+time64.c(468): fatal error C1903: unable to recover from previous error(s); stopping compilation
+  INTERNAL COMPILER ERROR in 'L:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe'
+      Please choose the Technical Support command on the Visual C++
+      Help menu, or open the Technical Support help file for more information

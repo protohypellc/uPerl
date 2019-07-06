@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{32B4449C-CBD7-4421-85E3-C8B9272D2121}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>UPerl</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <ProjectName>UPerl</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <EnableManagedIncrementalBuild>false</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)64</TargetName>
+    <EnableManagedIncrementalBuild>false</EnableManagedIncrementalBuild>
+    <CodeAnalysisRuleSet>MixedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>DEBUGGING;_CONSOLE;NO_STRICT;CONSERVATIVE;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;PERL_TEXTMODE_SCRIPTS;PERL_IMPLICIT_CONTEXT;PERL_IMPLICIT_SYS;WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(SolutionDir)Perl-5.2.2\Source\lib\CORE\;$(SolutionDir)Perl-5.2.2\Source\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <RemoveUnreferencedCodeData>false</RemoveUnreferencedCodeData>
+      <BrowseInformation>true</BrowseInformation>
+      <CompileAsManaged>true</CompileAsManaged>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>perl522s.lib;pp_sys.obj;util.obj;win32.obj;win32sck.obj;perllib.obj;ws2_32.lib;user32.lib;comctl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Perl-5.2.2\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EnableUAC>false</EnableUAC>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRT</IgnoreSpecificDefaultLibraries>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <AdditionalOptions>/DLL %(AdditionalOptions)</AdditionalOptions>
+      <CLRThreadAttribute>MTAThreadingAttribute</CLRThreadAttribute>
+      <CLRImageType>Default</CLRImageType>
+      <CLRUnmanagedCodeCheck>false</CLRUnmanagedCodeCheck>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>perl522s_64.lib perl-static.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\perl\lib\core\</AdditionalLibraryDirectories>
+    </Lib>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_CONSOLE;NO_STRICT;WIN32;WIN64;CONSERVATIVE;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;PERL_TEXTMODE_SCRIPTS;PERL_IMPLICIT_CONTEXT;PERL_IMPLICIT_SYS;WIN64;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(SolutionDir)Perl-5.2.2\Source\lib\CORE\;$(SolutionDir)Perl-5.2.2\Source\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <OmitFramePointers>false</OmitFramePointers>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <StringPooling>true</StringPooling>
+      <AdditionalOptions />
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <CompileAsManaged>true</CompileAsManaged>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <RemoveUnreferencedCodeData>false</RemoveUnreferencedCodeData>
+      <BrowseInformation>true</BrowseInformation>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <RuntimeTypeInfo>
+      </RuntimeTypeInfo>
+      <OpenMPSupport>
+      </OpenMPSupport>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>perl522s.lib;version.lib;Mincore.lib;pp_sys.obj;util.obj;win32.obj;win32sck.obj;perllib.obj;ws2_32.lib;user32.lib;comctl32.lib</AdditionalDependencies>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)Perl-5.2.2\x64\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRT</IgnoreSpecificDefaultLibraries>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <AdditionalOptions>/DLL %(AdditionalOptions)</AdditionalOptions>
+      <CLRImageType>Default</CLRImageType>
+      <CLRUnmanagedCodeCheck>false</CLRUnmanagedCodeCheck>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+      <CLRThreadAttribute>MTAThreadingAttribute</CLRThreadAttribute>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <OptimizeReferences>
+      </OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>perl522s.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Perl-5.2.2\Source\lib\CORE\;$(SolutionDir)Perl-5.2.2\Source\</AdditionalLibraryDirectories>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\perl\lib\CORE\av.h" />
+    <ClInclude Include="C:\perl\lib\CORE\bitcount.h" />
+    <ClInclude Include="C:\perl\lib\CORE\charclass_invlists.h" />
+    <ClInclude Include="C:\perl\lib\CORE\config.h" />
+    <ClInclude Include="C:\perl\lib\CORE\cop.h" />
+    <ClInclude Include="C:\perl\lib\CORE\cv.h" />
+    <ClInclude Include="C:\perl\lib\CORE\dirent.h" />
+    <ClInclude Include="C:\perl\lib\CORE\dosish.h" />
+    <ClInclude Include="C:\perl\lib\CORE\ebcdic_tables.h" />
+    <ClInclude Include="C:\perl\lib\CORE\embed.h" />
+    <ClInclude Include="C:\perl\lib\CORE\embedvar.h" />
+    <ClInclude Include="C:\perl\lib\CORE\EXTERN.h" />
+    <ClInclude Include="C:\perl\lib\CORE\fakesdio.h" />
+    <ClInclude Include="C:\perl\lib\CORE\feature.h" />
+    <ClInclude Include="C:\perl\lib\CORE\form.h" />
+    <ClInclude Include="C:\perl\lib\CORE\git_version.h" />
+    <ClInclude Include="C:\perl\lib\CORE\gv.h" />
+    <ClInclude Include="C:\perl\lib\CORE\handy.h" />
+    <ClInclude Include="C:\perl\lib\CORE\hv.h" />
+    <ClInclude Include="C:\perl\lib\CORE\hv_func.h" />
+    <ClInclude Include="C:\perl\lib\CORE\inline.h" />
+    <ClInclude Include="C:\perl\lib\CORE\INTERN.h" />
+    <ClInclude Include="C:\perl\lib\CORE\intrpvar.h" />
+    <ClInclude Include="C:\perl\lib\CORE\iperlsys.h" />
+    <ClInclude Include="C:\perl\lib\CORE\keywords.h" />
+    <ClInclude Include="C:\perl\lib\CORE\l1_char_class_tab.h" />
+    <ClInclude Include="C:\perl\lib\CORE\malloc_ctl.h" />
+    <ClInclude Include="C:\perl\lib\CORE\metaconfig.h" />
+    <ClInclude Include="C:\perl\lib\CORE\mg.h" />
+    <ClInclude Include="C:\perl\lib\CORE\mg_data.h" />
+    <ClInclude Include="C:\perl\lib\CORE\mg_raw.h" />
+    <ClInclude Include="C:\perl\lib\CORE\mg_vtable.h" />
+    <ClInclude Include="C:\perl\lib\CORE\mydtrace.h" />
+    <ClInclude Include="C:\perl\lib\CORE\netdb.h" />
+    <ClInclude Include="C:\perl\lib\CORE\nostdio.h" />
+    <ClInclude Include="C:\perl\lib\CORE\op.h" />
+    <ClInclude Include="C:\perl\lib\CORE\opcode.h" />
+    <ClInclude Include="C:\perl\lib\CORE\opnames.h" />
+    <ClInclude Include="C:\perl\lib\CORE\op_reg_common.h" />
+    <ClInclude Include="C:\perl\lib\CORE\overload.h" />
+    <ClInclude Include="C:\perl\lib\CORE\pad.h" />
+    <ClInclude Include="C:\perl\lib\CORE\parser.h" />
+    <ClInclude Include="C:\perl\lib\CORE\patchlevel.h" />
+    <ClInclude Include="C:\perl\lib\CORE\perl.h" />
+    <ClInclude Include="C:\perl\lib\CORE\perlapi.h" />
+    <ClInclude Include="C:\perl\lib\CORE\perlhost.h" />
+    <ClInclude Include="C:\perl\lib\CORE\perlio.h" />
+    <ClInclude Include="C:\perl\lib\CORE\perliol.h" />
+    <ClInclude Include="C:\perl\lib\CORE\perllibst.h" />
+    <ClInclude Include="C:\perl\lib\CORE\perlsdio.h" />
+    <ClInclude Include="C:\perl\lib\CORE\perlvars.h" />
+    <ClInclude Include="C:\perl\lib\CORE\perly.h" />
+    <ClInclude Include="C:\perl\lib\CORE\pp.h" />
+    <ClInclude Include="C:\perl\lib\CORE\pp_proto.h" />
+    <ClInclude Include="C:\perl\lib\CORE\proto.h" />
+    <ClInclude Include="C:\perl\lib\CORE\reentr.h" />
+    <ClInclude Include="C:\perl\lib\CORE\regcharclass.h" />
+    <ClInclude Include="C:\perl\lib\CORE\regcomp.h" />
+    <ClInclude Include="C:\perl\lib\CORE\regexp.h" />
+    <ClInclude Include="C:\perl\lib\CORE\regnodes.h" />
+    <ClInclude Include="C:\perl\lib\CORE\scope.h" />
+    <ClInclude Include="C:\perl\lib\CORE\sv.h" />
+    <ClInclude Include="C:\perl\lib\CORE\thread.h" />
+    <ClInclude Include="C:\perl\lib\CORE\time64.h" />
+    <ClInclude Include="C:\perl\lib\CORE\time64_config.h" />
+    <ClInclude Include="C:\perl\lib\CORE\uconfig.h" />
+    <ClInclude Include="C:\perl\lib\CORE\unicode_constants.h" />
+    <ClInclude Include="C:\perl\lib\CORE\unixish.h" />
+    <ClInclude Include="C:\perl\lib\CORE\utf8.h" />
+    <ClInclude Include="C:\perl\lib\CORE\utfebcdic.h" />
+    <ClInclude Include="C:\perl\lib\CORE\util.h" />
+    <ClInclude Include="C:\perl\lib\CORE\uudmap.h" />
+    <ClInclude Include="C:\perl\lib\CORE\vdir.h" />
+    <ClInclude Include="C:\perl\lib\CORE\vmem.h" />
+    <ClInclude Include="C:\perl\lib\CORE\vutil.h" />
+    <ClInclude Include="C:\perl\lib\CORE\warnings.h" />
+    <ClInclude Include="C:\perl\lib\CORE\win32.h" />
+    <ClInclude Include="C:\perl\lib\CORE\win32iop-o.h" />
+    <ClInclude Include="C:\perl\lib\CORE\win32iop.h" />
+    <ClInclude Include="C:\perl\lib\CORE\win32thread.h" />
+    <ClInclude Include="C:\perl\lib\CORE\wince.h" />
+    <ClInclude Include="C:\perl\lib\CORE\XSUB.h" />
+    <ClInclude Include="uperl.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="UPerl.cpp" />
+    <ClCompile Include="Stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\ChadSinger\Desktop\app.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

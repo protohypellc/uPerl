@@ -1,0 +1,86 @@
+*************** that are also supported by perl's makefile.
+*** 63,72 ****
+  =back
+  
+  The Microsoft Visual C++ compilers are also now being given away free. They are
+- available as "Visual C++ Toolkit 2003" or "Visual C++ 2005-2013 Express
+  Edition" (and also as part of the ".NET Framework SDK") and are the same
+  compilers that ship with "Visual C++ .NET 2003 Professional" or "Visual C++
+- 2005-2013 Professional" respectively.
+  
+  This port can also be built on IA64/AMD64 using:
+  
+--- 63,72 ----
+  =back
+  
+  The Microsoft Visual C++ compilers are also now being given away free. They are
++ available as "Visual C++ Toolkit 2003" or "Visual C++ 2005-2015 Express
+  Edition" (and also as part of the ".NET Framework SDK") and are the same
+  compilers that ship with "Visual C++ .NET 2003 Professional" or "Visual C++
++ 2005-2015 Professional" respectively.
+  
+  This port can also be built on IA64/AMD64 using:
+  
+*************** and edit win32/config.vc to change "make=nmake" into "make=dmake".  The
+*** 142,150 ****
+  latter step is only essential if you want to use dmake as your default
+  make for building extensions using MakeMaker.
+  
+- =item Microsoft Visual C++ 2008-2013 Express Edition
+  
+- These free versions of Visual C++ 2008-2013 Professional contain the same
+  compilers and linkers that ship with the full versions, and also contain
+  everything necessary to build Perl, rather than requiring a separate download
+  of the Windows SDK like previous versions did.
+--- 142,158 ----
+  latter step is only essential if you want to use dmake as your default
+  make for building extensions using MakeMaker.
+  
++ B<WARNING: Perl currently only has experimental support for Visual C++ 2015.>
++ We are currently working on how best to support the significant changes to the
++ CRT in this release of Visual C++. In the meantime we have added experimental
++ support for building with the static CRT only. This is likely to change in the
++ future. A number of test failures are to be expected at this stage, including
++ at least some tests in F<run/locale.t>, F<ext/PerlIO-scalar/t/scalar.t> and
++ F<ext/XS-Typemap/t/Typemap.t>.
+  
++ =item Microsoft Visual C++ 2008-2015 Express Edition
++ 
++ These free versions of Visual C++ 2008-2015 Professional contain the same
+  compilers and linkers that ship with the full versions, and also contain
+  everything necessary to build Perl, rather than requiring a separate download
+  of the Windows SDK like previous versions did.
+*************** L<http://www.microsoft.com/downloads/search.aspx?displaylang=en>.  (Providing ex
+*** 154,167 ****
+  links to these packages has proven a pointless task because the links keep on
+  changing so often.)
+  
+- Install Visual C++ 2008-2013 Express, then setup your environment using, e.g.
+  
+  	C:\Program Files\Microsoft Visual Studio 12.0\Common7\Tools\vsvars32.bat
+  
+  (assuming the default installation location was chosen).
+  
+  Perl should now build using the win32/Makefile.  You will need to edit that
+- file to set CCTYPE to one of MSVC90FREE-MSVC120FREE first.
+  
+  =item Microsoft Visual C++ 2005 Express Edition
+  
+--- 162,178 ----
+  links to these packages has proven a pointless task because the links keep on
+  changing so often.)
+  
++ Install Visual C++ 2008-2015 Express, then setup your environment using, e.g.
+  
+  	C:\Program Files\Microsoft Visual Studio 12.0\Common7\Tools\vsvars32.bat
+  
+  (assuming the default installation location was chosen).
+  
+  Perl should now build using the win32/Makefile.  You will need to edit that
++ file to set CCTYPE to one of MSVC90FREE-MSVC140FREE first.
++ 
++ B<See the WARNING above regarding the current status of support for the
++ 2015 version.>
+  
+  =item Microsoft Visual C++ 2005 Express Edition
+  
